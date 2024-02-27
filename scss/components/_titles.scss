@@ -6,10 +6,6 @@ h1, h2, h3 {
     .titlehome {
         font-family: 'Salsa', cursive;
         font-size: 50px;
-
-        @media only screen and (max-width: 768px) {
-            font-size: 40px;
-        }
     }
 }
 
@@ -32,8 +28,4 @@ h3 {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     margin-bottom: 25px;
-
-    @media only screen and (max-width: 768px) {
-        font-size: 25px;
-    }
 }

@@ -1,0 +1,267 @@
+/*NAVBAR*/
+@media only screen and (max-width: 768px) {
+    .navbar ul, .navbarnews ul, .navbarhome ul {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+    }
+  
+    .navbar ul li a, .navbarnews ul li a, .navbarhome ul li a {
+      display: block;
+      font-size: 12px;
+      margin: 3px 0;
+      padding: 0px;
+    }
+  }
+
+  /*GENERAL*/
+  @media only screen and (max-width: 768px) {
+    header {
+      img {
+        height: 40vh;
+      }
+      h1, .titlehome {
+        font-size: 40px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 25px;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    header {
+      img {
+        height: 30vh;
+      }
+      h1, .titlehome {
+        font-size: 30px;
+      }
+      h2 {
+        font-size: 25px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  /*HOME*/
+  @media only screen and (max-width: 768px) {
+    .storylinebox {
+      width: 90%;
+    }
+    iframe {
+      display: inline-block;
+      margin-bottom: 20px;
+      width: 70%;
+    }
+  }
+
+
+/*HOME PREVIEW*/
+@media only screen and (max-width: 768px) {
+    .card-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+/*ABOUT*/
+@media only screen and (max-width: 768px) {
+    .cardsabout {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      padding: 0px;
+    }
+  
+    .card-textabout {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .cardsabout, .cardsquery {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .card-textabout {
+      font-size: 15px;
+    }
+  }
+
+
+
+  /*MERCHANDISING*/
+  @media only screen and (max-width: 768px) {
+    .merchandising {
+      margin: 30px;
+    }
+    .productos {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .merchandising {
+      margin: 20px;
+    }
+  
+    .productos {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 60%;
+    }
+  }
+
+  /*NEWS*/
+  @media screen and (max-width: 768px) {
+    .newspage {
+      grid-template-columns: repeat(1, 1fr);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0px auto;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .newspage {
+      grid-template-columns: repeat(1, 1fr);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0px auto;
+    }
+  
+    .newscard {
+      margin: 10px 40px;
+    }
+  
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 50px;
+      padding: 0px;
+    }
+  }
+
+  /*CONTACT*/
+  @media screen and (max-width: 768px) {
+    .contacttext {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .formbutton {
+      margin-top: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .contacttext {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .name, .email, .message, .options {
+      margin: 10px 0;
+    }
+    .formbutton {
+      margin-top: 20px;
+    }
+  }
+
+
+/*FOOTER*/
+@media only screen and (max-width: 768px) {
+    footer {
+      flex-direction: row;
+      margin-top: 50px;
+      padding: 0px;
+  
+      .triforce {
+        margin: 10px 0;
+        width: 20px;
+      }
+  
+      .facebook, .twitter, .instagram {
+        margin-right: 10px;
+        width: 20px;
+        padding: 0px;
+      }
+  
+      .pcopy, .triforce, .socials {
+        padding: 0px;
+        margin: 2px;
+      }
+  
+      .pcopy {
+        margin-left: 80px;
+        text-align: center;
+      }
+  
+      .socials img {
+        width: 25px;
+        margin-top: 5px;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    footer {
+      flex-direction: column;
+      margin-top: 50px;
+      padding-top: 10px;
+  
+      .triforce {
+        margin-top: 90px;
+        width: 20px;
+      }
+  
+      .facebook, .twitter, .instagram {
+        margin-right: 0;
+        width: 20px;
+        padding-top: 3px;
+      }
+  
+      .pcopy, .triforce, .socials {
+        padding-top: 3px;
+        margin: 2px;
+      }
+  
+      .socials img {
+        width: 20px;
+        margin: 5px 10px;
+      }
+    }
+  }

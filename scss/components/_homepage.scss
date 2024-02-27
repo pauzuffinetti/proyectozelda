@@ -9,9 +9,6 @@ main {
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 			width: 70%;
 			margin-bottom: 70px;
-			@media only screen and (max-width: 768px) {
-				width: 90%;
-				}
 		}
 		.storyline {
 			font-size: 16px;
@@ -36,22 +33,13 @@ main {
 			iframe {
 				border: none;
 				width: 50%;
-				@media only screen and (max-width: 768px) {
-					display: inline-block;
-					margin-bottom: 20px;
-					width: 70%;
-				}
 			}
 		}
 		.othertrailers {
 			iframe {
 				border: none;
 				width: 50%;
-				@media only screen and (max-width: 768px) {
-					display: inline-block;
-					margin-bottom: 20px;
-					width: 70%;
-				}
+
 			}
 			display: inline-block;
 			margin-bottom: 20px;

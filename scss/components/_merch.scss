@@ -12,10 +12,6 @@
 		max-width: 800px;
 		transition: box-shadow 0.3s ease;
 		box-shadow: 0 0 10px rgba(255, 255, 255, 0);
-
-		@media screen and (max-width: 768px) {
-			max-width: 90%;
-		}
 	
 	.games-container {
 		display: flex;
@@ -95,11 +91,6 @@
 		align-items: center;
 		overflow: hidden;
 		width: 100%;
-
-		@media screen and (max-width: 768px){
-			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-			gap: 20px;
-		}
 
 		p {
 			margin-top: 10px;

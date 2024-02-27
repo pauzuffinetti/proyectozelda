@@ -12,10 +12,6 @@
 			padding: 10px;
 			width: 100%;
 			margin: 0;
-			@media only screen and (max-width: 768px) {
-				display: flex;
-				flex-direction: column;
-			}
 		}
 		.homecards {
 			position: relative;

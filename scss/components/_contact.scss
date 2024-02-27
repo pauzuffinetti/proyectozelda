@@ -1,128 +1,65 @@
 main {
-.contact {
-	text-align: center;
-		fieldset {
-			font-family: 'Raleway', sans-serif;
-			font-size: 18px;
-			margin-bottom: 20px;
-			align-items: center;
-			border: none;
-			
-			.contacttext {
-				font-family: 'Raleway', sans-serif;
-				font-size: 18px;
-				display: flex;
-				justify-content: center;
-				margin-bottom: 20px; 
-				align-items: center;
-				max-width: 700px;
-				margin: 0 auto;
-				padding: 10px 0 40px 0;
-					@media screen and (max-width: 768px) {
-						width: 70%;
-						margin: 0 auto;
-					}
-				
-			}
-
-			.formcontainer {
-				background-color: rgba(6, 105, 65, 0.515);
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-				max-width: 400px;
-				margin: 0 auto;
-				padding-bottom: 15px;
-				border-radius: 5px;
-
-				@include form(2px, white); /* MIXIN AGREGADO*/
-}
-
-				
-				.name {
-						display: flex;
-						flex-direction: column;
-						align-items: center;
-						margin: 20px;
-						
-					label {
-							margin-bottom: 5px;
-						}
-						@media screen and (max-width: 768px){
-							margin: 10px 0; 
-						}
-
-				.formcontainer {
-						background-color: #72ffe379;
-						position: absolute;
-						top: 750px;
-						left: 50%;
-						transform: translate(-50%, -50%);
-					}
-					}
-				.email {
-						display: flex;
-						flex-direction: column;
-						align-items: center;
-						margin: 20px;
-						label {
-							margin-bottom: 5px;
-						}
-					
-						@media screen and (max-width: 768px){
-							margin: 10px 0; 
-						}
-					}
-				.options {
-						display: flex;
-						flex-direction: column;
-						align-items: center;
-						margin: 20px;
-						label {
-							margin-bottom: 5px;
-						}
-						@media screen and (max-width: 768px){
-							margin: 10px 0; 
-						}
-					}
-					
-				.message {
-						display: flex;
-						flex-direction: column;
-						align-items: center;
-						margin: 20px;
-						label {
-							margin-bottom: 5px;
-						}
-						@media screen and (max-width: 768px){
-							margin: 10px 0; 
-						}
-					}	
-							}
-				}
-
-		.formbutton {
-			@extend %button;
-			
-			&:hover {
-				color: rgb(255, 255, 255);
-				background-color: rgb(17, 97, 73);
-				box-shadow: 0px 2px 3px rgba(19, 170, 82, 0.4), 0px 0px 0px 3px rgba(195, 231, 202);
-			}
-			@media screen and (max-width: 768px) {
-				margin-top: 30px;
-				}
-		}
-}
-
-
-	.gif {
+	.contact {
+	  text-align: center;
+  
+	  .contacttext {
+		font-family: 'Raleway', sans-serif;
+		font-size: 18px;
 		display: flex;
 		justify-content: center;
-		text-decoration: none;
-		margin-top: 50px;
+		margin-bottom: 20px;
+		align-items: center;
+		max-width: 700px;
+		margin: 0 auto;
+		padding: 10px 0 40px 0;
+	  }
+  
+	  .formcontainer {
+		background-color: rgba(6, 105, 65, 0.515);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 400px;
+		margin: 0 auto;
+		padding-bottom: 15px;
+		border-radius: 5px;
+  
+		.name,
+		.email,
+		.options,
+		.message {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  margin: 20px;
+  
+		  label {
+			margin-bottom: 5px;
+		  }
+		}
+	  }
+  
+	  .formbutton {
+		@extend %button;
+  
+		&:hover {
+		  color: rgb(255, 255, 255);
+		  background-color: rgb(17, 97, 73);
+		  box-shadow: 0px 2px 3px rgba(19, 170, 82, 0.4), 0px 0px 0px 3px rgba(195, 231, 202);
+		}
+  
+	  }
 	}
+  
+	.gif {
+	  display: flex;
+	  justify-content: center;
+	  text-decoration: none;
+	  margin-top: 50px;
+	}
+  
 	.gifkorok {
-		border: none;
+	  border: none;
 	}
+  }
