@@ -1,6 +1,7 @@
 .newspreview {
 		h2 {
 			margin-top: 80px;
+			color: map-get($colores, third); // MAPS AGREGADO
 		
 		}
 		.card-container {
