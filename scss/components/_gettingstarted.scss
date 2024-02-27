@@ -1,0 +1,92 @@
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+	.gettingstarted {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 20px;
+		background-color: rgba(6, 105, 65, 0.515);
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		animation: fadeIn 1s ease-in-out;
+
+			.titlegettingstarted {
+				color: #ffffff;
+				text-align: center;
+			}
+
+			.menulinks {
+				position: sticky;
+				top: 10px;
+				text-align: center;
+				a {
+					display: inline-block;
+					margin: 15px 5px;
+					padding: 5px 10px;
+					background-color: rgba(6, 105, 65, 0.8);
+					border-radius: 5px;
+					text-decoration: none;
+					color: #fff;
+					transition: background-color 0.3s;
+					&:hover {
+						background-color: rgb(10, 172, 107);
+					}
+				}
+			}
+
+		#lookaround {
+			color: #ffffff;
+			margin-top: 20px;
+		
+			.pgettingstarted {
+				color: #ffffff;
+				margin-top: -10px;
+				line-height: 1.6;
+			}
+		}
+		
+		.lookaround {
+			margin-top: 20px;
+		}
+		.quickmenus {
+			@extend %getstarted;
+		}
+		.catchhorse {
+			@extend %getstarted;
+		}
+		.hoard {
+			@extend %getstarted;
+		}
+		.cook {
+			@extend %getstarted;
+		}
+		.dontsell {
+			@extend %getstarted;
+		}
+		.savemoney {
+			@extend %getstarted;
+		}
+		.interaction {
+			@extend %getstarted;
+			padding-bottom: 40px;
+		}
+
+		.decorative-line {
+			margin: 30px 0;
+			text-align: center;
+			&::before {
+				content: "";
+				display: inline-block;
+				width: 50px;
+				height: 2px;
+				background-color: #10ba79;
+				margin-right: 10px;
+			}
+		}
+	}

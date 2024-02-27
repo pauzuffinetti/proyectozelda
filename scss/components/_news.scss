@@ -1,0 +1,67 @@
+.newsp {
+	margin-bottom: 30px;
+}
+.newspage {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+    @media screen and (max-width: 480px) {
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+}
+.newscard {
+	background-color: rgb(243, 243, 243);
+	color: black;
+	width: 23rem;
+	margin: 25px 20px;
+	border: 2px solid gold;
+	transition: transform 0.3s ease;
+	    &:hover {
+		transform: scale(1.05);
+		box-shadow: 0 10px 14px rgb(255, 255, 255);
+	}
+	    img {
+		width: 100%;
+		transition: transform 0.3s ease, border 0.3s ease;
+	}
+	    .newscard-body {
+		text-align: center;
+	}
+
+    @media screen and (max-width: 480px) {
+        margin: 10px 40px;
+    }
+
+
+}
+.newscard-text {
+	font-size: 15px;
+}
+.newscard-title {
+	font-size: 16px;
+	margin-top: 3px;
+}
+.newscard-body {
+	a {
+		text-decoration: none;
+		color: map-get($colores, third); /*MAPS AGREGADO*/
+	}
+}
+.btn-primary {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}

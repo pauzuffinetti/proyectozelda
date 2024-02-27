@@ -1,0 +1,139 @@
+main{
+	.cardsabout {
+		display: flex;
+		justify-content: center;
+
+			@media only screen and (max-width: 768px) {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: 0px;
+			padding: -60px;
+			}
+			@media only screen and (max-width: 480px) {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: 0px;
+			padding: 0px 0px; 
+			}
+	
+	.card-courage {
+		flex: 1;
+		position: relative;
+		margin: 60px;
+		max-width: 250px;
+		overflow: hidden;
+		border-radius: 5px;
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			opacity: 1;
+			border-radius: 3px;
+			transition: transform 0.3s ease, border 0.3s ease;
+		}
+		&:hover {
+			img {
+				opacity: 0.3;
+				transform: scale(1.1);
+			}
+			.card-textabout {
+				display: flex;
+				opacity: 1;
+			}
+			box-shadow: 0 10px 14px rgb(255, 255, 255);
+		}
+	}
+	.card-wisdom {
+		flex: 1;
+		position: relative;
+		margin: 60px;
+		max-width: 250px;
+		overflow: hidden;
+		border-radius: 5px;
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			opacity: 1;
+			border-radius: 3px;
+			transition: transform 0.3s ease, border 0.3s ease;
+		}
+		&:hover {
+			img {
+				opacity: 0.3;
+				transform: scale(1.1);
+			}
+			.card-textabout {
+				display: flex;
+				opacity: 1;
+			}
+			box-shadow: 0 10px 14px rgb(255, 255, 255);
+		}
+	}
+	.card-power {
+		flex: 1;
+		position: relative;
+		margin: 60px;
+		max-width: 250px;
+		overflow: hidden;
+		border-radius: 5px;
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			opacity: 1;
+			border-radius: 3px;
+			transition: transform 0.3s ease, border 0.3s ease;
+		}
+		&:hover {
+			img {
+				opacity: 0.3;
+				transform: scale(1.1);
+			}
+			.card-textabout {
+				display: flex;
+				opacity: 1;
+			}
+			box-shadow: 0 10px 14px rgb(255, 255, 255);
+		}
+	}
+	
+	.card-textabout {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		font-size: 15px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding: 10px;
+		border-radius: 5px;
+		color: map-get($colores, third); /*MAPS AGREGADO*/ 
+		opacity: 0;
+		transition: opacity 0.3s ease;
+
+		@media only screen and (max-width: 768px) {
+			font-size: 15px;
+		}
+	}
+	}
+
+		@media only screen and (max-width: 480px) {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: 0px;
+			padding: 0px 0px; 
+		}
+	
+}

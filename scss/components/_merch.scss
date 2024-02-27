@@ -1,0 +1,144 @@
+.merchandising {
+		text-align: center;
+		margin: 50px;
+		@media screen and (max-width: 768px) {
+			margin: 20px;
+			}
+	}
+.productos {
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		max-width: 800px;
+		transition: box-shadow 0.3s ease;
+		box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+
+		@media screen and (max-width: 768px) {
+			max-width: 90%;
+		}
+	
+	.games-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		a {
+			text-decoration: none;
+		}	
+	.games-item {
+		background-color: white;
+		border-radius: 3px;
+		border: 2px solid gold;
+		width: 100%;
+		max-width: 300px;
+		height: auto;
+		display: flex;
+		flex-direction: column; 
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		margin: 20px 10px;
+		border-radius: 3px;
+		transition: opacity 0.3s ease;
+		
+		.games-item{
+			margin: 20px 10px;
+			border-radius: 3px;
+			transition: opacity 0.3s ease;
+		}
+
+		.games {
+			@extend %card;
+			transition: transform 0.3s ease; 
+		}
+		
+		&:hover {
+			border: 2px solid rgb(0, 252, 185);
+			box-shadow: 0 10px 14px rgb(255, 255, 255);
+			img {
+				transform: scale(1.1);
+				transition: transform 0.3s ease;
+			}
+		}
+		
+		p{
+			margin-top: 10px; 
+			color: black;
+			background-color: white;
+			position: relative;
+
+			&:hover{
+				color:rgb(148, 205, 255);
+			}
+		}
+	}
+}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, auto);
+		gap: 70px;
+		margin-top: 30px;
+	
+	.grid-item {
+		background-color: white;
+		border-radius: 3px;
+		border: 2px solid gold;
+		width: 100%;
+		height: auto;
+		max-width: 300px;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		width: 100%;
+
+		@media screen and (max-width: 768px){
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+			gap: 20px;
+		}
+
+		p {
+			margin-top: 10px;
+			color: black;
+			background-color: white;
+			position: relative;
+			&:hover {
+				color:rgb(148, 205, 255);
+			}
+		}
+		a {
+			text-decoration: none;
+		}
+		
+		&:hover {
+			border: 2px solid rgb(0, 252, 185);
+			box-shadow: 0 10px 14px rgb(255, 255, 255);
+			img {
+				transform: scale(1.1);
+				transition: transform 0.3s ease;
+			}
+			}
+		}
+		
+		.ropa {
+			@extend %card;
+		}
+		.accesorios {
+			@extend %card;
+		}
+		.legos {
+			@extend %card;
+		}
+		.otros {
+			@extend %card;
+		}
+		.ocarina {
+			@extend %card;
+			padding-bottom: 50px;
+		}
+	}
+	}

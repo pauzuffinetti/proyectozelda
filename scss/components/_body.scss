@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	scroll-behavior: smooth;
+	color: map-get($colores, third); /*MAPS AGREGADO*/
+	min-width: 100vh;
+	a {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	section {
+		p {
+			font-size: 17px;
+			text-align: center;
+			margin: 0 8%;
+		}
+	}
+	p {
+		font-family: 'Raleway', sans-serif;
+		font-size: 25px;
+	}
+}
+html {
+	scroll-behavior: smooth;
+	color: map-get($colores, third); /*MAPS AGREGADO*/
+	min-width: 100vh;
+	a {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+.bodyhome {
+	.bodynews {
+		scroll-behavior: smooth;
+		color: map-get($colores, third); /*MAPS AGREGADO*/
+		min-width: 100vh;
+	}
+	a {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+.bodynews {
+	a {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

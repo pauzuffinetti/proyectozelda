@@ -1,0 +1,60 @@
+footer {
+	background-color: #256e4b;
+	color: map-get($colores, third); /*MAPS AGREGADO*/
+	text-align: center;
+	padding: 3px 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10%;
+	
+.homefooter {
+	background-color: #256e4b;
+	color: map-get($colores, third); /*MAPS AGREGADO*/
+	text-align: center;
+	padding: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10%;
+}
+}
+
+	.triforce {
+		width: 22px;
+		height: auto;
+		margin-left: 20px;
+	}
+	.facebook {
+		width: 18px;
+		margin-top: 3px;
+		display: inline-block;
+		margin-right: 15px;
+	}
+	.socials {
+		a {
+			margin: 0 1px;
+		}
+	}
+
+.twitter {
+	width: 18px;
+	margin-top: 3px;
+	display: inline-block;
+	margin-right: 15px;
+}
+.instagram {
+	width: 18px;
+	margin-top: 3px;
+	display: inline-block;
+	margin-right: 15px;
+}
+.pcopy {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 8px;
+}

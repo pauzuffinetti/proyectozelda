@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-final---copia",
+  "version": "1.0.0",
+  "description": "Mi nombre es Pau, tengo 28 años y esta es mi página dedicada al juego The Legend of Zelda, combinando sus dos últimos juegos para switch Breath of the Wild & Tears of the kingdom.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
