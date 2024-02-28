@@ -30,7 +30,13 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   height: auto;
 }
 
-.gettingstarted .getstartedcontainer .interaction, .gettingstarted .getstartedcontainer .savemoney, .gettingstarted .getstartedcontainer .dontsell, .gettingstarted .getstartedcontainer .cook, .gettingstarted .getstartedcontainer .hoard, .gettingstarted .getstartedcontainer .catchhorse, .gettingstarted .getstartedcontainer .quickmenus {
+.gettingstarted .getstartedcontainer .quickmenus,
+.gettingstarted .getstartedcontainer .catchhorse,
+.gettingstarted .getstartedcontainer .hoard,
+.gettingstarted .getstartedcontainer .cook,
+.gettingstarted .getstartedcontainer .dontsell,
+.gettingstarted .getstartedcontainer .savemoney,
+.gettingstarted .getstartedcontainer .interaction {
   margin-top: 20px;
   padding: 1px;
 }
@@ -840,12 +846,18 @@ main .cardsabout .card-textabout {
     opacity: 1;
   }
 }
+.gettingstarted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
 .gettingstarted .getstartedcontainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 800px;
+  width: 740px;
   padding: 1px;
   background-color: rgba(6, 105, 65, 0.515);
   border-radius: 10px;
@@ -906,12 +918,19 @@ main .cardsabout .card-textabout {
 
 .merchandising {
   text-align: center;
-  margin: 50px;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-@media screen and (max-width: 768px) {
-  .merchandising {
-    margin: 20px;
-  }
+.merchandising p {
+  margin-top: 15px;
+  color: rgb(167, 0, 0);
+  position: relative;
+}
+.merchandising p:hover {
+  color: rgb(148, 205, 255);
 }
 
 .productos {
@@ -935,8 +954,7 @@ main .cardsabout .card-textabout {
   background-color: white;
   border-radius: 3px;
   border: 2px solid gold;
-  width: 100%;
-  max-width: 300px;
+  width: 250px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -963,36 +981,24 @@ main .cardsabout .card-textabout {
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
-.productos .games-container .games-item p {
-  margin-top: 10px;
-  color: black;
-  background-color: white;
-  position: relative;
-}
-.productos .games-container .games-item p:hover {
-  color: rgb(148, 205, 255);
-}
 .productos .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
-  gap: 70px;
+  gap: 50px;
   margin-top: 30px;
 }
 .productos .grid-container .grid-item {
-  background-color: white;
-  border-radius: 3px;
-  border: 2px solid gold;
-  width: 100%;
-  height: auto;
-  max-width: 300px;
-  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid gold;
+  width: 200px;
+  height: auto;
 }
 .productos .grid-container .grid-item p {
   margin-top: 10px;
