@@ -1133,38 +1133,10 @@ main .gifkorok {
   border: none;
 }
 
-/*NAVBAR*/
-@media only screen and (max-width: 768px) {
-  .navbar ul, .navbarnews ul, .navbarhome ul {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    padding: 1px;
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #036343;
   }
-  .navbar ul li a, .navbarnews ul li a, .navbarhome ul li a {
-    display: block;
-    font-size: 12px;
-    margin: 3px 0;
-    padding: 0px;
-  }
-}
-/*GENERAL*/
-@media only screen and (max-width: 768px) {
-  header img {
-    height: 40vh;
-  }
-  header h1, header .titlehome {
-    font-size: 40px;
-  }
-  header h2 {
-    font-size: 30px;
-  }
-  header h3 {
-    font-size: 25px;
-  }
-}
-@media only screen and (min-width: 320px) {
   header img {
     height: 30vh;
   }
@@ -1177,41 +1149,22 @@ main .gifkorok {
   header h3 {
     font-size: 20px;
   }
-}
-/*HOME*/
-@media only screen and (max-width: 768px) {
-  .storylinebox {
-    width: 90%;
+  header .merchandising {
+    margin: 20px;
   }
-  iframe {
-    display: inline-block;
-    margin-bottom: 20px;
-    width: 70%;
+  header .productos {
+    max-width: 100%;
+    padding: 0 10px;
   }
-}
-/*HOME PREVIEW*/
-@media only screen and (max-width: 768px) {
-  .card-container {
+  header .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  header .grid-item {
     display: flex;
-    flex-direction: column;
-  }
-}
-/*ABOUT*/
-@media only screen and (max-width: 768px) {
-  .cardsabout {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin: 0;
-    padding: 0px;
+    max-width: 60%;
   }
-  .card-textabout {
-    font-size: 15px;
-  }
-}
-@media only screen and (min-width: 320px) {
   .cardsabout, .cardsquery {
     display: flex;
     flex-direction: column;
@@ -1224,50 +1177,6 @@ main .gifkorok {
   .card-textabout {
     font-size: 15px;
   }
-}
-/*MERCHANDISING*/
-@media only screen and (max-width: 768px) {
-  .merchandising {
-    margin: 30px;
-  }
-  .productos {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media only screen and (min-width: 320px) {
-  .merchandising {
-    margin: 20px;
-  }
-  .productos {
-    max-width: 100%;
-    padding: 0 10px;
-  }
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .grid-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 60%;
-  }
-}
-/*NEWS*/
-@media screen and (max-width: 768px) {
-  .newspage {
-    grid-template-columns: repeat(1, 1fr);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto;
-  }
-}
-@media screen and (min-width: 320px) {
   .newspage {
     grid-template-columns: repeat(1, 1fr);
     display: flex;
@@ -1287,9 +1196,97 @@ main .gifkorok {
     margin: 50px;
     padding: 0px;
   }
+  footer {
+    flex-direction: column;
+    margin-top: 50px;
+    padding-top: 10px;
+  }
+  footer .triforce {
+    margin-top: 90px;
+    width: 20px;
+  }
+  footer .facebook, footer .twitter, footer .instagram {
+    margin-right: 0;
+    width: 20px;
+    padding-top: 3px;
+  }
+  footer .pcopy, footer .triforce, footer .socials {
+    padding-top: 3px;
+    margin: 2px;
+  }
+  footer .socials img {
+    width: 20px;
+    margin: 5px 10px;
+  }
 }
-/*CONTACT*/
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .navbar ul, .navbarnews ul, .navbarhome ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+  }
+  .navbar ul li a, .navbarnews ul li a, .navbarhome ul li a {
+    display: block;
+    font-size: 12px;
+    margin: 3px 0;
+    padding: 0px;
+  }
+  header img {
+    height: 40vh;
+  }
+  header h1, header .titlehome {
+    font-size: 40px;
+  }
+  header h2 {
+    font-size: 30px;
+  }
+  header h3 {
+    font-size: 25px;
+  }
+  .storylinebox {
+    width: 90%;
+  }
+  iframe {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardsabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+  }
+  .card-textabout {
+    font-size: 15px;
+  }
+  .merchandising {
+    margin: 30px;
+  }
+  .productos {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .newspage {
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+  }
   .contacttext {
     width: 70%;
     margin: 0 auto;
@@ -1297,8 +1294,6 @@ main .gifkorok {
   .formbutton {
     margin-top: 30px;
   }
-}
-@media screen and (max-width: 768px) {
   .contacttext {
     width: 90%;
     margin: 0 auto;
@@ -1309,9 +1304,6 @@ main .gifkorok {
   .formbutton {
     margin-top: 20px;
   }
-}
-/*FOOTER*/
-@media only screen and (max-width: 768px) {
   footer {
     flex-direction: row;
     margin-top: 50px;
@@ -1337,34 +1329,5 @@ main .gifkorok {
   footer .socials img {
     width: 25px;
     margin-top: 5px;
-  }
-}
-@media only screen and (min-width: 320px) {
-  footer {
-    flex-direction: column;
-    margin-top: 50px;
-    padding-top: 10px;
-  }
-  footer .triforce {
-    margin-top: 90px;
-    width: 20px;
-  }
-  footer .facebook, footer .twitter, footer .instagram {
-    margin-right: 0;
-    width: 20px;
-    padding-top: 3px;
-  }
-  footer .pcopy, footer .triforce, footer .socials {
-    padding-top: 3px;
-    margin: 2px;
-  }
-  footer .socials img {
-    width: 20px;
-    margin: 5px 10px;
-  }
-}
-@media only screen and (min-width: 320px) and (min-width: 320px) {
-  body {
-    background-color: #042015;
   }
 }/*# sourceMappingURL=style.css.map */
