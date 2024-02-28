@@ -1,4 +1,9 @@
-h1, h2, h3 {
+h1 {
+    font-family: 'Salsa', cursive;
+    font-size: 40px;
+}
+
+h2, h3 {
     text-align: center;
     color: map-get($colores, third); // MAPS AGREGADO
 
@@ -16,16 +21,12 @@ h1, h2, h3 {
 
 h2 {
     font-family: 'Salsa', cursive;
-    font-size: 40px;
-    color: map-get($colores, third); // MAPS AGREGADO
-
-    @media only screen and (max-width: 768px) {
-        font-size: 30px;
-    }
+    font-size: 35px;
+    color: map-get($colores, third); // MAPS 
 }
 
 h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 25px;
 }

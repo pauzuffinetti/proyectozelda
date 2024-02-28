@@ -1,14 +1,16 @@
 main {
 	.homepage {
-		margin-bottom: 20px;
+		margin-bottom: 90px;
 		.storylinebox {
-			margin: 30px auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			padding: 18px;
 			background-color: #72ffe379;
 			border-radius: 10px;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-			width: 70%;
-			margin-bottom: 70px;
+			width: 60%;
+			margin: 0 auto;
 		}
 		.storyline {
 			font-size: 16px;
@@ -23,8 +25,12 @@ main {
 		}
 	}
 	
-	.trailers {
+	.youtubes {
 		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 
 		.firsttrailer {
 			display: inline-block;
@@ -32,14 +38,17 @@ main {
 			width: 100%;
 			iframe {
 				border: none;
-				width: 50%;
+				width: 30%;
+				height: 180px;
+
 			}
 		}
 		.othertrailers {
 			iframe {
 				border: none;
-				width: 50%;
-
+				width: 30%;
+				height: 200px;
+				margin: 20px;
 			}
 			display: inline-block;
 			margin-bottom: 20px;

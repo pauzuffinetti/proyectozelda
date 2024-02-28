@@ -7,15 +7,18 @@
 		opacity: 1;
 	}
 }
-	.gettingstarted {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 20px;
+.gettingstarted {
+	.getstartedcontainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 800px;
+		padding: 1px;
 		background-color: rgba(6, 105, 65, 0.515);
 		border-radius: 10px;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 		animation: fadeIn 1s ease-in-out;
-
 			.titlegettingstarted {
 				color: #ffffff;
 				text-align: center;
@@ -24,6 +27,7 @@
 			.menulinks {
 				position: sticky;
 				top: 10px;
+				margin-top: 12px;
 				text-align: center;
 				a {
 					display: inline-block;
@@ -42,11 +46,12 @@
 
 		#lookaround {
 			color: #ffffff;
-			margin-top: 20px;
+			margin-top: 15px;
 		
 			.pgettingstarted {
+				text-align: center;
 				color: #ffffff;
-				margin-top: -10px;
+				margin-top: 10px;
 				line-height: 1.6;
 			}
 		}
@@ -90,3 +95,4 @@
 			}
 		}
 	}
+}

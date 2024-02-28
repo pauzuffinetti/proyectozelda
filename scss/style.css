@@ -32,9 +32,9 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   height: auto;
 }
 
-.gettingstarted .interaction, .gettingstarted .savemoney, .gettingstarted .dontsell, .gettingstarted .cook, .gettingstarted .hoard, .gettingstarted .catchhorse, .gettingstarted .quickmenus {
-  margin-top: 40px;
-  padding: 5px;
+.gettingstarted .getstartedcontainer .interaction, .gettingstarted .getstartedcontainer .savemoney, .gettingstarted .getstartedcontainer .dontsell, .gettingstarted .getstartedcontainer .cook, .gettingstarted .getstartedcontainer .hoard, .gettingstarted .getstartedcontainer .catchhorse, .gettingstarted .getstartedcontainer .quickmenus {
+  margin-top: 20px;
+  padding: 1px;
 }
 
 .titlehome, .abouttitle, .newstitle, .contacttitle {
@@ -57,7 +57,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
 .background {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 800px;
   top: 0;
   left: 0;
   background: #042015;
@@ -65,7 +65,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   z-index: -1;
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 800px;
   top: 0;
   left: 0;
   background: #042015;
@@ -88,7 +88,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 31%;
   animation-duration: 460s;
   animation-delay: -126s;
-  transform-origin: -7vw -23vh;
+  transform-origin: -7vw -207px;
   box-shadow: -4vmin 0 1.3031767147vmin currentColor;
 }
 .background span:nth-child(1) {
@@ -97,7 +97,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 65%;
   animation-duration: 52s;
   animation-delay: -223s;
-  transform-origin: 4vw 17vh;
+  transform-origin: 4vw 170px;
   box-shadow: -4vmin 0 1.4555503963vmin currentColor;
 }
 .background span:nth-child(2) {
@@ -106,7 +106,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 18%;
   animation-duration: 226s;
   animation-delay: -300s;
-  transform-origin: -14vw 7vh;
+  transform-origin: -14vw 56px;
   box-shadow: -4vmin 0 0.9793618825vmin currentColor;
 }
 .background span:nth-child(3) {
@@ -115,7 +115,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 82%;
   animation-duration: 131s;
   animation-delay: -416s;
-  transform-origin: 6vw -4vh;
+  transform-origin: 6vw -36px;
   box-shadow: -4vmin 0 1.0763338093vmin currentColor;
 }
 .background span:nth-child(4) {
@@ -124,7 +124,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 4%;
   animation-duration: 123s;
   animation-delay: -482s;
-  transform-origin: -22vw -17vh;
+  transform-origin: -22vw -170px;
   box-shadow: -4vmin 0 0.598544942vmin currentColor;
 }
 .background span:nth-child(5) {
@@ -133,7 +133,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 1%;
   animation-duration: 316s;
   animation-delay: -141s;
-  transform-origin: 1vw -23vh;
+  transform-origin: 1vw -207px;
   box-shadow: 4vmin 0 0.9005950557vmin currentColor;
 }
 .background span:nth-child(6) {
@@ -142,7 +142,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 20%;
   animation-duration: 89s;
   animation-delay: -173s;
-  transform-origin: 24vw -24vh;
+  transform-origin: 24vw -288px;
   box-shadow: -4vmin 0 1.0347123671vmin currentColor;
 }
 .background span:nth-child(7) {
@@ -151,7 +151,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 80%;
   animation-duration: 103s;
   animation-delay: -227s;
-  transform-origin: 18vw 6vh;
+  transform-origin: 18vw 48px;
   box-shadow: -4vmin 0 1.1629472868vmin currentColor;
 }
 .background span:nth-child(8) {
@@ -160,7 +160,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 75%;
   animation-duration: 157s;
   animation-delay: -442s;
-  transform-origin: -15vw 18vh;
+  transform-origin: -15vw 144px;
   box-shadow: 4vmin 0 1.2501032598vmin currentColor;
 }
 .background span:nth-child(9) {
@@ -169,7 +169,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 11%;
   animation-duration: 243s;
   animation-delay: -160s;
-  transform-origin: -15vw 3vh;
+  transform-origin: -15vw 24px;
   box-shadow: 4vmin 0 1.2632918836vmin currentColor;
 }
 .background span:nth-child(10) {
@@ -178,7 +178,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 22%;
   animation-duration: 142s;
   animation-delay: -280s;
-  transform-origin: -15vw -11vh;
+  transform-origin: -15vw -88px;
   box-shadow: -4vmin 0 0.5123556175vmin currentColor;
 }
 .background span:nth-child(11) {
@@ -187,7 +187,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 64%;
   animation-duration: 150s;
   animation-delay: -18s;
-  transform-origin: 21vw 10vh;
+  transform-origin: 21vw 80px;
   box-shadow: -4vmin 0 1.3466227252vmin currentColor;
 }
 .background span:nth-child(12) {
@@ -196,7 +196,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 49%;
   animation-duration: 142s;
   animation-delay: -421s;
-  transform-origin: 1vw 22vh;
+  transform-origin: 1vw 176px;
   box-shadow: 4vmin 0 0.8098404572vmin currentColor;
 }
 .background span:nth-child(13) {
@@ -205,7 +205,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 75%;
   animation-duration: 493s;
   animation-delay: -165s;
-  transform-origin: 20vw 11vh;
+  transform-origin: 20vw 88px;
   box-shadow: 4vmin 0 0.8625891281vmin currentColor;
 }
 .background span:nth-child(14) {
@@ -214,7 +214,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 63%;
   animation-duration: 156s;
   animation-delay: -148s;
-  transform-origin: 2vw -23vh;
+  transform-origin: 2vw -207px;
   box-shadow: -4vmin 0 1.0099111861vmin currentColor;
 }
 .background span:nth-child(15) {
@@ -223,7 +223,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 99%;
   animation-duration: 236s;
   animation-delay: -196s;
-  transform-origin: -19vw 3vh;
+  transform-origin: -19vw 24px;
   box-shadow: 4vmin 0 0.95203291vmin currentColor;
 }
 .background span:nth-child(16) {
@@ -232,7 +232,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 64%;
   animation-duration: 360s;
   animation-delay: -254s;
-  transform-origin: 12vw -5vh;
+  transform-origin: 12vw -40px;
   box-shadow: -4vmin 0 1.1212166849vmin currentColor;
 }
 .background span:nth-child(17) {
@@ -241,7 +241,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 57%;
   animation-duration: 104s;
   animation-delay: -268s;
-  transform-origin: -7vw -17vh;
+  transform-origin: -7vw -170px;
   box-shadow: -4vmin 0 1.2991007202vmin currentColor;
 }
 .background span:nth-child(18) {
@@ -250,7 +250,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 11%;
   animation-duration: 137s;
   animation-delay: -177s;
-  transform-origin: 8vw 1vh;
+  transform-origin: 8vw 10px;
   box-shadow: -4vmin 0 1.3667893389vmin currentColor;
 }
 .background span:nth-child(19) {
@@ -259,7 +259,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 27%;
   animation-duration: 387s;
   animation-delay: -227s;
-  transform-origin: 20vw -11vh;
+  transform-origin: 20vw -88px;
   box-shadow: 4vmin 0 0.6584119272vmin currentColor;
 }
 .background span:nth-child(20) {
@@ -268,7 +268,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 16%;
   animation-duration: 405s;
   animation-delay: -364s;
-  transform-origin: 10vw 6vh;
+  transform-origin: 10vw 48px;
   box-shadow: 4vmin 0 0.5490405722vmin currentColor;
 }
 .background span:nth-child(21) {
@@ -277,7 +277,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 27%;
   animation-duration: 269s;
   animation-delay: -209s;
-  transform-origin: 1vw 17vh;
+  transform-origin: 1vw -170px;
   box-shadow: -4vmin 0 0.8727258493vmin currentColor;
 }
 .background span:nth-child(22) {
@@ -286,7 +286,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 61%;
   animation-duration: 71s;
   animation-delay: -349s;
-  transform-origin: -24vw 16vh;
+  transform-origin: -24vw 128px;
   box-shadow: 4vmin 0 1.0093120724vmin currentColor;
 }
 .background span:nth-child(23) {
@@ -295,7 +295,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 33%;
   animation-duration: 396s;
   animation-delay: -247s;
-  transform-origin: -24vw -7vh;
+  transform-origin: -24vw -56px;
   box-shadow: 4vmin 0 0.6473483372vmin currentColor;
 }
 .background span:nth-child(24) {
@@ -304,7 +304,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 11%;
   animation-duration: 362s;
   animation-delay: -335s;
-  transform-origin: -1vw -23vh;
+  transform-origin: -1vw -207px;
   box-shadow: -4vmin 0 1.3041693804vmin currentColor;
 }
 .background span:nth-child(25) {
@@ -313,7 +313,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 65%;
   animation-duration: 490s;
   animation-delay: -481s;
-  transform-origin: -2vw -3vh;
+  transform-origin: -2vw -24px;
   box-shadow: -4vmin 0 1.1138960736vmin currentColor;
 }
 .background span:nth-child(26) {
@@ -322,7 +322,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 80%;
   animation-duration: 35s;
   animation-delay: -193s;
-  transform-origin: 25vw 6vh;
+  transform-origin: 25vw 48px;
   box-shadow: 4vmin 0 0.8374722261vmin currentColor;
 }
 .background span:nth-child(27) {
@@ -331,7 +331,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 10%;
   animation-duration: 441s;
   animation-delay: -286s;
-  transform-origin: -14vw -22vh;
+  transform-origin: -14vw -176px;
   box-shadow: -4vmin 0 1.3626060385vmin currentColor;
 }
 .background span:nth-child(28) {
@@ -340,7 +340,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 42%;
   animation-duration: 292s;
   animation-delay: -327s;
-  transform-origin: -23vw -6vh;
+  transform-origin: -23vw -48px;
   box-shadow: 4vmin 0 0.6765638911vmin currentColor;
 }
 .background span:nth-child(29) {
@@ -349,7 +349,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 58%;
   animation-duration: 43s;
   animation-delay: -446s;
-  transform-origin: -24vw 12vh;
+  transform-origin: -24vw 96px;
   box-shadow: 4vmin 0 0.5697476471vmin currentColor;
 }
 .background span:nth-child(30) {
@@ -358,7 +358,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 26%;
   animation-duration: 133s;
   animation-delay: -200s;
-  transform-origin: 18vw -18vh;
+  transform-origin: 18vw -144px;
   box-shadow: -4vmin 0 1.2128454806vmin currentColor;
 }
 .background span:nth-child(31) {
@@ -367,7 +367,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 96%;
   animation-duration: 10s;
   animation-delay: -460s;
-  transform-origin: -12vw 4vh;
+  transform-origin: -12vw 36px;
   box-shadow: -4vmin 0 1.2194995177vmin currentColor;
 }
 .background span:nth-child(32) {
@@ -376,7 +376,7 @@ main .contact .formbutton, .homebutton .homebuttondiv .viewmorebutton {
   left: 53%;
   animation-duration: 159s;
   animation-delay: -149s;
-  transform-origin: -8vw 8vh;
+  transform-origin: -8vw 64px;
   box-shadow: 4vmin 0 1.2102462359vmin currentColor;
 }
 
@@ -450,7 +450,7 @@ footer .homefooter {
 body, html {
   scroll-behavior: smooth;
   color: white;
-  min-width: 100vh;
+  min-width: 800px;
 }
 body a:hover, html a:hover {
   cursor: pointer;
@@ -470,7 +470,7 @@ header {
 }
 header img {
   width: 100%;
-  height: 65vh;
+  height: 650px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -586,12 +586,16 @@ header nav ul li a {
   background-color: rgba(7, 221, 153, 0.636);
 }
 
-h1, h2, h3 {
+h1 {
+  font-family: "Salsa", cursive;
+  font-size: 40px;
+}
+
+h2, h3 {
   text-align: center;
   color: white;
 }
-h1,
-h1 .titlehome, h2,
+h2,
 h2 .titlehome, h3,
 h3 .titlehome {
   font-family: "Salsa", cursive;
@@ -604,32 +608,29 @@ h3 .titlehome {
 
 h2 {
   font-family: "Salsa", cursive;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
-}
-@media only screen and (max-width: 768px) {
-  h2 {
-    font-size: 30px;
-  }
 }
 
 h3 {
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 25px;
 }
 
 main .homepage {
-  margin-bottom: 20px;
+  margin-bottom: 90px;
 }
 main .homepage .storylinebox {
-  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 18px;
   background-color: rgba(114, 255, 227, 0.4745098039);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 70%;
-  margin-bottom: 70px;
+  width: 60%;
+  margin: 0 auto;
 }
 main .homepage .storyline {
   font-size: 16px;
@@ -642,26 +643,33 @@ main .homepage .storyline strong {
   font-weight: bold;
   color: #00eac3;
 }
-main .trailers {
+main .youtubes {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-main .trailers .firsttrailer {
+main .youtubes .firsttrailer {
   display: inline-block;
   margin-bottom: 20px;
   width: 100%;
 }
-main .trailers .firsttrailer iframe {
+main .youtubes .firsttrailer iframe {
   border: none;
-  width: 50%;
+  width: 30%;
+  height: 180px;
 }
-main .trailers .othertrailers {
+main .youtubes .othertrailers {
   display: inline-block;
   margin-bottom: 20px;
   width: 100%;
 }
-main .trailers .othertrailers iframe {
+main .youtubes .othertrailers iframe {
   border: none;
-  width: 50%;
+  width: 30%;
+  height: 200px;
+  margin: 20px;
 }
 
 .newspreview h2 {
@@ -670,24 +678,22 @@ main .trailers .othertrailers iframe {
 }
 .newspreview .card-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  width: 100%;
-  margin: 0;
+  width: 70%;
+  margin: 0 auto;
+  gap: 20px;
 }
 .newspreview .homecards {
   position: relative;
-  width: 20rem;
+  width: 300px;
   overflow: hidden;
   transition: transform 0.3s ease;
-  margin: 0 15px;
   color: black; /*MAPS AGREGADO*/
   background-color: white; /*MAPS AGREGADO*/
   border-radius: 3px;
   border: 1px solid black;
-  margin-bottom: 20px;
 }
 .newspreview .homecards img {
   width: 100%;
@@ -708,6 +714,7 @@ main .trailers .othertrailers iframe {
 }
 .newspreview .homecard-text {
   padding: 5px;
+  font-size: 14px;
 }
 
 .homebutton .homebuttondiv {
@@ -727,35 +734,16 @@ main .trailers .othertrailers iframe {
 
 main .cardsabout {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-}
-@media only screen and (max-width: 768px) {
-  main .cardsabout {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0px;
-    padding: -60px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  main .cardsabout {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0px;
-    padding: 0px 0px;
-  }
+  align-items: center;
+  gap: 50px;
+  margin: 30px 0 50px 0;
 }
 main .cardsabout .card-courage {
   flex: 1;
   position: relative;
-  margin: 60px;
-  max-width: 250px;
+  max-width: 210px;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -781,8 +769,7 @@ main .cardsabout .card-courage:hover .card-textabout {
 main .cardsabout .card-wisdom {
   flex: 1;
   position: relative;
-  margin: 60px;
-  max-width: 250px;
+  max-width: 210px;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -808,8 +795,7 @@ main .cardsabout .card-wisdom:hover .card-textabout {
 main .cardsabout .card-power {
   flex: 1;
   position: relative;
-  margin: 60px;
-  max-width: 250px;
+  max-width: 210px;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -837,7 +823,7 @@ main .cardsabout .card-textabout {
   justify-content: center;
   align-items: center;
   position: absolute;
-  font-size: 15px;
+  font-size: 13px;
   top: 0;
   left: 0;
   right: 0;
@@ -857,25 +843,29 @@ main .cardsabout .card-textabout {
     opacity: 1;
   }
 }
-.gettingstarted {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+.gettingstarted .getstartedcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  padding: 1px;
   background-color: rgba(6, 105, 65, 0.515);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
 }
-.gettingstarted .titlegettingstarted {
+.gettingstarted .getstartedcontainer .titlegettingstarted {
   color: #ffffff;
   text-align: center;
 }
-.gettingstarted .menulinks {
+.gettingstarted .getstartedcontainer .menulinks {
   position: sticky;
   top: 10px;
+  margin-top: 12px;
   text-align: center;
 }
-.gettingstarted .menulinks a {
+.gettingstarted .getstartedcontainer .menulinks a {
   display: inline-block;
   margin: 15px 5px;
   padding: 5px 10px;
@@ -885,29 +875,30 @@ main .cardsabout .card-textabout {
   color: #fff;
   transition: background-color 0.3s;
 }
-.gettingstarted .menulinks a:hover {
+.gettingstarted .getstartedcontainer .menulinks a:hover {
   background-color: rgb(10, 172, 107);
 }
-.gettingstarted #lookaround {
+.gettingstarted .getstartedcontainer #lookaround {
   color: #ffffff;
-  margin-top: 20px;
+  margin-top: 15px;
 }
-.gettingstarted #lookaround .pgettingstarted {
+.gettingstarted .getstartedcontainer #lookaround .pgettingstarted {
+  text-align: center;
   color: #ffffff;
-  margin-top: -10px;
+  margin-top: 10px;
   line-height: 1.6;
 }
-.gettingstarted .lookaround {
+.gettingstarted .getstartedcontainer .lookaround {
   margin-top: 20px;
 }
-.gettingstarted .interaction {
+.gettingstarted .getstartedcontainer .interaction {
   padding-bottom: 40px;
 }
-.gettingstarted .decorative-line {
+.gettingstarted .getstartedcontainer .decorative-line {
   margin: 30px 0;
   text-align: center;
 }
-.gettingstarted .decorative-line::before {
+.gettingstarted .getstartedcontainer .decorative-line::before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -1138,7 +1129,7 @@ main .gifkorok {
     background-color: #036343;
   }
   header img {
-    height: 30vh;
+    height: 270px;
   }
   header h1, header .titlehome {
     font-size: 30px;
@@ -1234,7 +1225,7 @@ main .gifkorok {
     padding: 0px;
   }
   header img {
-    height: 40vh;
+    height: 480px;
   }
   header h1, header .titlehome {
     font-size: 40px;
