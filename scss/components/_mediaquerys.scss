@@ -5,7 +5,7 @@
       justify-content: center;
       flex-direction: row;
       align-items: center;
-      padding: 0px;
+      padding: 1px;
     }
   
     .navbar ul li a, .navbarnews ul li a, .navbarhome ul li a {
@@ -34,7 +34,7 @@
     }
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (min-width: 320px) {
     header {
       img {
         height: 30vh;
@@ -89,7 +89,7 @@
     }
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (min-width: 320px) {
     .cardsabout, .cardsquery {
       display: flex;
       flex-direction: column;
@@ -120,7 +120,7 @@
     }
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (min-width: 320px) {
     .merchandising {
       margin: 20px;
     }
@@ -152,7 +152,7 @@
     }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 320px) {
     .newspage {
       grid-template-columns: repeat(1, 1fr);
       display: flex;
@@ -187,7 +187,7 @@
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .contacttext {
       width: 90%;
       margin: 0 auto;
@@ -236,7 +236,7 @@
     }
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (min-width: 320px) {
     footer {
       flex-direction: column;
       margin-top: 50px;
