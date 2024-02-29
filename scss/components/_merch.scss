@@ -7,7 +7,7 @@
 		text-align: center;
 			p{
 			margin-top: 15px; 
-			color: rgb(167, 0, 0);
+			color: white;
 			position: relative;
 
 			&:hover{
@@ -51,7 +51,15 @@
 			border-radius: 3px;
 			transition: opacity 0.3s ease;
 		}
-
+		p{
+			margin-top: 16px; 
+			color: black;
+			position: relative;
+		
+			&:hover{
+				color:rgb(148, 205, 255);
+			}
+		}
 		.games {
 			@extend %card;
 			transition: transform 0.3s ease; 
