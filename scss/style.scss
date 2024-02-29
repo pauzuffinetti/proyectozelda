@@ -1,10 +1,9 @@
 @import 'base/extends';
-@import 'base/listas';
 @import 'base/maps';
 @import 'base/mixin';
 @import 'base/fonts';
 
-
+@import 'components/mediaquerys';
 @import 'components/background';
 @import 'components/footer';
 @import 'components/body';
@@ -18,4 +17,4 @@
 @import 'components/merch';
 @import 'components/news';
 @import 'components/contact';
-@import 'components/mediaquerys';
+

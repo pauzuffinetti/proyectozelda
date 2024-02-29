@@ -15,6 +15,10 @@
     font-weight: 400;
     height: 36px;
     transition: all 150ms ease-in-out 0s;
+
+    &:hover{
+        transform: scale(1.05);
+    }
 }
 
 /*
