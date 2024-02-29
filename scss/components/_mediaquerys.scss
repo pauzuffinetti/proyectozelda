@@ -1,5 +1,301 @@
 @media only screen and (max-width: 480px) {
+/*Header & navbar */
+header{
+  & img {
+    position: relative;
+    height: 300px;
+  }
+  .navbar
+  &.navbarnews 
+  &.nabvarhome
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    li{
+  align-items: center;
+  padding: 0px;
+  }
+  a{
+      display: inline-block;
+      font-size: 10px;
+      margin: 3px 0;
+      padding: 0px;
+      }
+    }
 }
 
-  @media only screen and (max-width: 768px) {
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 25px;
+}
+h3{
+  font-size: 20px;
+}
+
+
+/*home*/
+.storylinebox {
+  width: 80%;
+}
+iframe{
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/*About*/
+.cardsabout, .cardquery{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px; 
+
+    .cardtextabout{
+      font-size: 15px;
+    }
   }
+
+.merchandising {
+  margin: 20px;
+}
+.productos {
+  max-width: 100%;
+  padding: 0 10px;
+}
+.grid-container {
+  grid-template-columns: repeat(1, 1fr);
+
+  .grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+  }
+}
+
+
+/*News*/
+.newspage{
+  grid-template-columns: repeat(1, 1fr);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+
+  .newscard {
+    margin: 10px 40px;
+  }
+}
+
+
+/*Contact*/
+.contacttext{
+  width: 70%;
+  margin: 0 auto;
+}
+.name, .email, .message, .options{
+  margin: 10px 0;
+}
+.formbutton {
+margin-top: 20%;
+}
+
+
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding-top: 10px;
+
+  .pcopy {
+    padding-top: 3px;
+    margin: 2px;
+  }
+
+  .triforce{
+    padding-top: 3px;
+    margin: 2px;
+    width: 18px;
+  }
+  .socials{
+    padding-top: 3px;
+    margin: 2px;
+
+    img {
+      width: 20px;
+      margin: 5px 10px;
+    }
+  .facebook, .twitter, .instagram{
+    margin-right: 0;
+    width: 18px;
+    padding-top: 3px;
+  }
+}
+}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  header{
+    & img {
+      position: relative;
+      width: 100%;
+      height: 300px;
+    }
+    .navbar
+    &.navbarnews 
+    &.nabvarhome
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+      li{
+    align-items: center;
+    padding: 0px;
+    }
+    a{
+        display: block;
+        font-size: 12px;
+        margin: 3px 0;
+        padding: 0px;
+        }
+      }
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  
+  
+  /*home*/
+  .storylinebox {
+    width: 90%;
+  }
+  iframe{
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  /*About*/
+  .cardsabout, .cardquery{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;    
+      width: 100%;
+      margin: 0px;
+      padding: -60px; 
+  
+      .cardtextabout{
+        font-size: 15px;
+      }
+    }
+
+
+ /*Merch*/
+  .merchandising {
+    margin: 30px;
+  }
+  .productos {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  
+  /*News*/
+  .newspage{
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+  }
+  
+  
+  /*Contact*/
+  .contacttext{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .name, .email, .message, .options{
+    margin: 10px 0;
+  }
+  .formbutton {
+  margin-top: 30px;
+  }
+  
+  
+  /*Footer*/
+  footer {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 50px;
+    padding-top: 0px;
+  
+    .pcopy {
+      text-align: center;
+      padding: 0;
+      margin: 2px;
+    }
+  
+    .triforce{
+      padding: 0;
+      margin: 2px;
+    }
+    .socials{
+      padding: 0;
+      margin: 2px;
+  
+      img {
+        width: 25px;
+        margin-top: 5px;
+      }
+    .facebook, .twitter, .instagram{
+      margin-right: 0;
+      width: 18px;
+      padding-top: 3px;
+    }
+  }
+}
+
+
+}
