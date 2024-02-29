@@ -50,6 +50,10 @@
 }
 
 /*Colores*/
+* {
+  border: 1px solid black;
+}
+
 @keyframes move {
   100% {
     transform: translate3d(0, 0, 1px) rotate(360deg);
@@ -385,25 +389,13 @@
   box-shadow: 4vmin 0 1.2102462359vmin currentColor;
 }
 
-footer {
+.homefooter {
   background-color: #256e4b;
   color: white; /*MAPS AGREGADO*/
   text-align: center;
-  padding: 3px 0;
+  padding: 2px 0;
   bottom: 0;
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10%;
-}
-footer .homefooter {
-  background-color: #256e4b;
-  color: white; /*MAPS AGREGADO*/
-  text-align: center;
-  padding: 0;
-  bottom: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -419,25 +411,28 @@ footer .homefooter {
   width: 16px;
   margin-top: 3px;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
+.socials {
+  margin-right: 20px;
+}
 .socials a {
-  margin: 0 1px;
+  margin: 5px;
 }
 
 .twitter {
   width: 16px;
   margin-top: 3px;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 .instagram {
   width: 16px;
   margin-top: 3px;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 .pcopy {
@@ -662,8 +657,8 @@ main .youtubes .firsttrailer {
 }
 main .youtubes .firsttrailer iframe {
   border: none;
-  width: 30%;
-  height: 180px;
+  width: 34%;
+  height: 280px;
 }
 main .youtubes .othertrailers {
   display: inline-block;
@@ -672,8 +667,8 @@ main .youtubes .othertrailers {
 }
 main .youtubes .othertrailers iframe {
   border: none;
-  width: 30%;
-  height: 200px;
+  width: 34%;
+  height: 280px;
   margin: 20px;
 }
 
@@ -725,6 +720,7 @@ main .youtubes .othertrailers iframe {
 .homebutton .homebuttondiv {
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 }
 .homebutton .homebuttondiv .viewmorebutton a {
   color: white; /*MAPS AGREGADO*/
@@ -852,7 +848,7 @@ main .cardsabout .card-textabout {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin: 70px;
 }
 .gettingstarted .getstartedcontainer {
   display: flex;
@@ -879,11 +875,11 @@ main .cardsabout .card-textabout {
 .gettingstarted .getstartedcontainer .menulinks a {
   display: inline-block;
   margin: 15px 5px;
-  padding: 5px 10px;
-  background-color: rgba(6, 105, 65, 0.8);
+  padding: 5px 5px;
+  background-color: rgba(253, 253, 253, 0.8);
   border-radius: 5px;
   text-decoration: none;
-  color: #fff;
+  color: rgb(12, 86, 56);
   transition: background-color 0.3s;
 }
 .gettingstarted .getstartedcontainer .menulinks a:hover {
@@ -931,15 +927,14 @@ main .cardsabout .card-textabout {
   color: white;
   position: relative;
 }
-.merchandising p:hover {
-  color: rgb(148, 205, 255);
-}
 
 .productos {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  max-width: 800px;
+  margin: 40px;
+  width: 90%;
   transition: box-shadow 0.3s ease;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0);
 }
@@ -1049,7 +1044,7 @@ main .cardsabout .card-textabout {
   color: black; /*MAPS AGREGADO*/
   width: 18rem;
   height: 375px;
-  margin: 10px;
+  margin: 20px;
   border: 2px solid gold;
   transition: transform 0.3s ease;
 }
@@ -1088,23 +1083,26 @@ main .cardsabout .card-textabout {
   align-items: center;
 }
 .contact fieldset {
-  border: none;
-  text-align: center;
-  margin: 20px;
-}
-.contact fieldset legend {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: none;
+  text-align: center;
+}
+.contact fieldset .contacttext {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
   margin-bottom: 20px;
-  width: 600px;
 }
 .contact fieldset .formcontainer {
   background-color: rgba(6, 105, 65, 0.515);
-  max-width: 400px;
-  margin: 20px auto;
+  width: 400px;
+  margin: 20px;
   padding: 5px;
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -1129,6 +1127,9 @@ main .cardsabout .card-textabout {
   margin-bottom: 5px;
 }
 
+.formbutton {
+  margin-bottom: 30px;
+}
 .formbutton:hover {
   background-color: rgb(17, 97, 73);
   box-shadow: 0px 2px 3px rgba(19, 170, 82, 0.4), 0px 0px 0px 3px rgb(195, 231, 202);
@@ -1138,7 +1139,7 @@ main .cardsabout .card-textabout {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .gifkorok {
@@ -1150,20 +1151,21 @@ main .cardsabout .card-textabout {
   header img {
     height: 400px;
   }
-  .navbar header.navbarnews header.nabvarhome ul {
+  header .navbar ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 2px;
   }
-  .navbar header.navbarnews header.nabvarhome ul li {
+  header .navbar ul li {
     align-items: center;
-    padding: 0px;
+    margin: 1px;
+    padding: 0;
   }
-  .navbar header.navbarnews header.nabvarhome ul a {
+  header .navbar ul a {
     display: inline-block;
     font-size: 10px;
-    margin: 3px 0;
-    padding: 0px;
+    margin: 1px;
   }
   h1 {
     font-size: 30px;
@@ -1175,21 +1177,35 @@ main .cardsabout .card-textabout {
     font-size: 20px;
   }
   /*home*/
-  .storylinebox {
-    width: 80%;
+  main {
+    /*About*/
+    /*merch*/
+    /*News*/
+    /*Contact*/
   }
-  iframe {
-    display: inline-block;
-    margin-bottom: 20px;
-    width: 70%;
+  main .storylinebox {
+    width: 100%;
   }
-  .card-container {
+  main .youtubes {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  /*About*/
-  .cardsabout, .cardquery {
+  main .youtubes .othertrailers {
+    display: flex;
+    justify-content: center;
+  }
+  main .youtubes iframe {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  main .youtubes .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .cardsabout, main .cardquery {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1198,27 +1214,28 @@ main .cardsabout .card-textabout {
     margin: 0px;
     padding: 0px 0px;
   }
-  .cardsabout .cardtextabout, .cardquery .cardtextabout {
+  main .cardsabout .cardtextabout, main .cardquery .cardtextabout {
     font-size: 15px;
   }
-  .merchandising {
-    margin: 20px;
-  }
-  .productos {
-    max-width: 100%;
-    padding: 0 10px;
-  }
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .grid-container .grid-item {
+  main .productos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 0;
   }
-  /*News*/
-  .newspage {
+  main .productos .games-container {
+    width: 400px;
+  }
+  main .productos .grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  main .newspage {
     grid-template-columns: repeat(1, 1fr);
     display: flex;
     flex-direction: column;
@@ -1226,28 +1243,31 @@ main .cardsabout .card-textabout {
     align-items: center;
     margin: 0px auto;
   }
-  .newspage .newscard {
+  main .newspage .newscard {
     margin: 10px 40px;
   }
-  /*Contact*/
-  .contacttext {
+  main .contacttext {
     width: 70%;
     margin: 0 auto;
   }
-  .name, .email, .message, .options {
+  main .name, main .email, main .message, main .options {
     margin: 10px 0;
   }
-  .formbutton {
+  main .formbutton {
     margin-top: 20%;
   }
   /*Footer*/
   footer {
     display: flex;
     flex-direction: column;
+    width: 100%;
     margin-top: 50px;
     padding-top: 10px;
   }
   footer .pcopy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 3px;
     margin: 2px;
   }
@@ -1257,17 +1277,20 @@ main .cardsabout .card-textabout {
     width: 18px;
   }
   footer .socials {
-    padding-top: 3px;
-    margin: 2px;
+    padding: 0;
+    margin: 0;
   }
   footer .socials img {
-    width: 20px;
+    width: 10px;
     margin: 5px 10px;
+  }
+  footer .socials a {
+    margin: 0;
   }
   footer .socials .facebook, footer .socials .twitter, footer .socials .instagram {
     margin-right: 0;
-    width: 18px;
-    padding-top: 3px;
+    padding: 0;
+    width: 10px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1331,8 +1354,8 @@ main .cardsabout .card-textabout {
     margin: 30px;
   }
   .productos {
-    max-width: 100%;
-    padding: 0 20px;
+    margin: 0;
+    width: 100%;
   }
   .grid-container {
     grid-template-columns: repeat(2, 1fr);

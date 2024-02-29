@@ -9,17 +9,15 @@
 			margin-top: 15px; 
 			color: map-get($colores, third); 
 			position: relative;
-
-			&:hover{
-				color:rgb(148, 205, 255);
-			}
 		}
 	}
 .productos {
+		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin: 0 auto;
-		max-width: 800px;
+		margin: 40px;
+		width: 90%;
 		transition: box-shadow 0.3s ease;
 		box-shadow: 0 0 10px rgba(255, 255, 255, 0);
 	

@@ -1,27 +1,28 @@
 @media only screen and (max-width: 480px) {
 /*Header & navbar */
+
 header{
   & img {
     height: 400px;
   }
-  .navbar
-  &.navbarnews 
-  &.nabvarhome
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-    li{
-  align-items: center;
-  padding: 0px;
-  }
-  a{
-      display: inline-block;
-      font-size: 10px;
-      margin: 3px 0;
-      padding: 0px;
+  .navbar {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 2px;
+        li{
+        align-items: center;
+        margin: 1px;
+        padding: 0;
       }
+  a {
+    display: inline-block;
+    font-size: 10px;
+    margin: 1px;
     }
+    }
+  }
 }
 
 h1 {
@@ -36,81 +37,97 @@ h3{
 
 
 /*home*/
-.storylinebox {
-  width: 80%;
-}
-iframe{
-  display: inline-block;
-  margin-bottom: 20px;
-  width: 70%;
-}
-.card-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-
-/*About*/
-.cardsabout, .cardquery{
-  display: flex;
+main {
+  .storylinebox {
+    width: 100%;
+  }
+  .youtubes {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
-    width: 100%;
-    margin: 0px;
-    padding: 0px 0px; 
 
-    .cardtextabout{
-      font-size: 15px;
+    .othertrailers{
+      display: flex;
+      justify-content: center;
     }
+
+  iframe{
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   }
 
-.merchandising {
-  margin: 20px;
-}
-.productos {
-  max-width: 100%;
-  padding: 0 10px;
-}
-.grid-container {
-  grid-template-columns: repeat(1, 1fr);
 
-  .grid-item{
+  /*About*/
+  .cardsabout, .cardquery{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;    
+      width: 100%;
+      margin: 0px;
+      padding: 0px 0px; 
+
+      .cardtextabout{
+        font-size: 15px;
+      }
+    }
+
+
+  /*merch*/
+  .productos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 0;
 
+  .games-container {
+    width: 400px;
   }
-}
-
-
-/*News*/
-.newspage{
-  grid-template-columns: repeat(1, 1fr);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0px auto;
-
-  .newscard {
-    margin: 10px 40px;
+  .grid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
   }
-}
+  }
 
 
-/*Contact*/
-.contacttext{
-  width: 70%;
-  margin: 0 auto;
-}
-.name, .email, .message, .options{
-  margin: 10px 0;
-}
-.formbutton {
-margin-top: 20%;
+  /*News*/
+  .newspage{
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+
+    .newscard {
+      margin: 10px 40px;
+    }
+  }
+
+
+  /*Contact*/
+  .contacttext{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .name, .email, .message, .options{
+    margin: 10px 0;
+  }
+  .formbutton {
+  margin-top: 20%;
+  }
 }
 
 
@@ -118,10 +135,14 @@ margin-top: 20%;
 footer {
   display: flex;
   flex-direction: column;
+  width: 100%;
   margin-top: 50px;
   padding-top: 10px;
 
   .pcopy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 3px;
     margin: 2px;
   }
@@ -132,17 +153,19 @@ footer {
     width: 18px;
   }
   .socials{
-    padding-top: 3px;
-    margin: 2px;
-
+    padding: 0;
+    margin: 0;
     img {
-      width: 20px;
+      width: 10px;
       margin: 5px 10px;
+    }
+    a{
+      margin: 0;
     }
   .facebook, .twitter, .instagram{
     margin-right: 0;
-    width: 18px;
-    padding-top: 3px;
+    padding: 0;
+    width: 10px;
   }
 }
 }
@@ -230,9 +253,10 @@ footer {
     margin: 30px;
   }
   .productos {
-    max-width: 100%;
-    padding: 0 20px;
+    margin: 0;
+    width: 100%;
   }
+  
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }

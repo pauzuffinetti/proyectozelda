@@ -3,7 +3,9 @@
 @import 'base/mixin';
 @import 'base/fonts';
 
-
+*{
+    border: 1px solid black;
+}
 @import 'components/background';
 @import 'components/footer';
 @import 'components/body';
