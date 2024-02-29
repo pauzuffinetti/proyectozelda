@@ -457,7 +457,6 @@ footer .homefooter {
 body, html {
   scroll-behavior: smooth;
   color: white;
-  min-width: 800px;
 }
 body a:hover, html a:hover {
   cursor: pointer;

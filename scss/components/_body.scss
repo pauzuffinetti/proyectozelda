@@ -5,9 +5,7 @@
   
   body, html {
 	scroll-behavior: smooth;
-	color: map-get($colores, third);
-	min-width: 800px;
-  
+	color: map-get($colores, third);  
 	a {
 	  &:hover {
 		cursor: pointer;
