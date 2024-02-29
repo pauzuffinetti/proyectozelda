@@ -50,12 +50,12 @@
         }
 
         #lookaround {
-            color: #ffffff;
+            color: map-get($colores, third); 
             margin-top: 15px;
 
             .pgettingstarted {
                 text-align: center;
-                color: #ffffff;
+                color: map-get($colores, third); 
                 margin-top: 10px;
                 line-height: 1.6;
             }

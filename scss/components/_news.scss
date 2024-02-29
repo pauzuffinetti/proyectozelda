@@ -1,16 +1,19 @@
-.newsp {
-	margin-bottom: 30px;
-}
 .newspage {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: repeat(3, 1fr);
 
+	.newsp {
+		margin-bottom: 30px;
+	}
+}
+
 .newscard {
+	justify-self: center;
 	background-color: rgb(243, 243, 243);
-	color: black;
-	width: 20rem;
-	margin: 20px 20px;
+	color: map-get($colores, fourth); /*MAPS AGREGADO*/
+	width: 18rem;
+	margin: 10px;
 	border: 2px solid gold;
 	transition: transform 0.3s ease;
 	    &:hover {
@@ -25,11 +28,12 @@
 	.newscard-body {
 		text-align: center;
 		.newscard-title {
-			font-size: 16px;
-			margin-top: 3px;
-		}
-		.newscard-text {
 			font-size: 15px;
+			margin-top: 3px;
+			padding: 1px;
+		}
+		p {
+			font-size: 14px;
 		}
 		a {
 			text-decoration: none;
@@ -41,5 +45,4 @@
 		margin-bottom: 10px;
 	}
 	}
-}
 }

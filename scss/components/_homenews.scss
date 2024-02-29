@@ -28,14 +28,14 @@
 				display: block;
 				transition: transform 0.3s ease, border 0.3s ease;
 				&:hover {
-					transform: scale(1.1);
-					border: 2px solid gold;
+					transform: scale(1.05);
 				}
 			}
 			&:hover {
 				.homecard-text {
 					opacity: 1;
 				}
+				transform: scale(1.05);
 				border: 2px solid gold;
 				box-shadow: 0 10px 14px rgb(255, 255, 255);
 			}
