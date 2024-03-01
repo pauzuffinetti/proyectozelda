@@ -140,7 +140,7 @@ main {
     margin: 0px auto;
 
     .newscard {
-      margin: 10px 40px;
+      margin: 10px;
     }
   }
 
@@ -154,14 +154,18 @@ main {
 
 fieldset{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 
-.formcontainer{
-  width: 100%;
-  margin: 20px;
-}
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .formcontainer{
+      width: 100%;
+    }
+  }
 
   .name, .email, .message, .options{
     margin: 10px 0;
