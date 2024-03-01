@@ -35,8 +35,6 @@ h3{
   font-size: 20px;
 }
 
-
-/*home*/
 main {
   .storylinebox {
     width: 100%;
@@ -63,8 +61,6 @@ main {
   }
   }
 
-
-  /*About*/
   .cardsabout, .cardquery{
     display: flex;
       flex-direction: column;
@@ -80,7 +76,6 @@ main {
     }
 
 
-  /*merch*/
   .productos {
     display: flex;
     flex-direction: column;
@@ -101,8 +96,6 @@ main {
   }
   }
 
-
-  /*News*/
   .newspage{
     grid-template-columns: repeat(1, 1fr);
     display: flex;
@@ -117,7 +110,6 @@ main {
   }
 
 
-  /*Contact*/
   .contacttext{
     width: 70%;
     margin: 0 auto;
@@ -130,8 +122,6 @@ main {
   }
 }
 
-
-/*Footer*/
 footer {
   display: flex;
   flex-direction: column;
@@ -215,8 +205,7 @@ footer {
     font-size: 25px;
   }
   
-  
-  /*home*/
+ 
   .storylinebox {
     width: 90%;
   }
@@ -231,8 +220,7 @@ footer {
     justify-content: center;
   }
   
-  
-  /*About*/
+
   .cardsabout, .cardquery{
     display: flex;
       flex-direction: column;
@@ -248,7 +236,6 @@ footer {
     }
 
 
- /*Merch*/
   .merchandising {
     margin: 30px;
   }
@@ -262,7 +249,7 @@ footer {
   }
   
   
-  /*News*/
+
   .newspage{
     grid-template-columns: repeat(1, 1fr);
     display: flex;
@@ -273,7 +260,7 @@ footer {
   }
   
   
-  /*Contact*/
+
   .contacttext{
     width: 90%;
     margin: 0 auto;
@@ -286,7 +273,7 @@ footer {
   }
   
   
-  /*Footer*/
+
   footer {
     display: flex;
     flex-direction: row;

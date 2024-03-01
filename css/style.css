@@ -1172,13 +1172,6 @@ main .cardsabout .card-textabout {
   h3 {
     font-size: 20px;
   }
-  /*home*/
-  main {
-    /*About*/
-    /*merch*/
-    /*News*/
-    /*Contact*/
-  }
   main .storylinebox {
     width: 100%;
   }
@@ -1252,7 +1245,6 @@ main .cardsabout .card-textabout {
   main .formbutton {
     margin-top: 20%;
   }
-  /*Footer*/
   footer {
     display: flex;
     flex-direction: column;
@@ -1318,7 +1310,6 @@ main .cardsabout .card-textabout {
   h3 {
     font-size: 25px;
   }
-  /*home*/
   .storylinebox {
     width: 90%;
   }
@@ -1332,7 +1323,6 @@ main .cardsabout .card-textabout {
     flex-direction: column;
     justify-content: center;
   }
-  /*About*/
   .cardsabout, .cardquery {
     display: flex;
     flex-direction: column;
@@ -1345,7 +1335,6 @@ main .cardsabout .card-textabout {
   .cardsabout .cardtextabout, .cardquery .cardtextabout {
     font-size: 15px;
   }
-  /*Merch*/
   .merchandising {
     margin: 30px;
   }
@@ -1356,7 +1345,6 @@ main .cardsabout .card-textabout {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
-  /*News*/
   .newspage {
     grid-template-columns: repeat(1, 1fr);
     display: flex;
@@ -1365,7 +1353,6 @@ main .cardsabout .card-textabout {
     align-items: center;
     margin: 0px auto;
   }
-  /*Contact*/
   .contacttext {
     width: 90%;
     margin: 0 auto;
@@ -1376,7 +1363,6 @@ main .cardsabout .card-textabout {
   .formbutton {
     margin-top: 30px;
   }
-  /*Footer*/
   footer {
     display: flex;
     flex-direction: row;
