@@ -18,8 +18,8 @@
 			width: 300px;
 			overflow: hidden;
 			transition: transform 0.3s ease;
-			color: map-get($colores, fourth); /*MAPS AGREGADO*/
-			background-color: map-get($colores, third); /*MAPS AGREGADO*/
+			color: map-get($colores, fourth); 
+			background-color: map-get($colores, third); 
 			border-radius: 3px;
 			border: 1px solid black;
 			img {
@@ -54,7 +54,7 @@
 			.viewmorebutton {
 				@extend %button;
 				a {
-					color: map-get($colores, third); /*MAPS AGREGADO*/
+					color: map-get($colores, third);
 					text-decoration: none;
 				}
 

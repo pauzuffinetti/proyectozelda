@@ -23,10 +23,6 @@
   transform: scale(1.05);
 }
 
-/*
-.button {
-    @extend %button;
-}*/
 .productos .grid-container .ocarina, .productos .grid-container .otros, .productos .grid-container .legos, .productos .grid-container .accesorios, .productos .grid-container .ropa, .productos .games-container .games-item .games {
   width: 100%;
   height: auto;
@@ -49,7 +45,6 @@
   text-align: center;
 }
 
-/*Colores*/
 @keyframes move {
   100% {
     transform: translate3d(0, 0, 1px) rotate(360deg);
@@ -387,7 +382,7 @@
 
 .homefooter {
   background-color: #256e4b;
-  color: white; /*MAPS AGREGADO*/
+  color: white;
   text-align: center;
   padding: 2px 0;
   bottom: 0;
@@ -492,66 +487,6 @@ header nav ul li a {
   border-bottom-color: rgb(7, 221, 154);
 }
 
-.navbar {
-  background-color: rgba(6, 105, 65, 0.515);
-  padding: 1px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-.navbar ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-.navbar ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  padding: 2px 8px;
-  border-radius: 3px;
-  transition: background-color 0.3s;
-}
-.navbar ul li a:hover {
-  background-color: rgba(7, 221, 153, 0.636);
-}
-
-.navbarnews {
-  background-color: rgba(6, 105, 65, 0.515);
-  padding: 1px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
-.navbarnews ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-.navbarnews ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-.navbarnews ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  padding: 2px 8px;
-  border-radius: 3px;
-  transition: background-color 0.3s;
-}
-.navbarnews ul li a:hover {
-  background-color: rgba(7, 221, 153, 0.636);
-}
-
 .navbarhome {
   background-color: rgba(6, 105, 65, 0.515);
   padding: 1px 0;
@@ -574,7 +509,7 @@ header nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 15px;
-  padding: 2px 8px;
+  padding: 1px 15px;
   border-radius: 3px;
   transition: background-color 0.3s;
 }
@@ -615,18 +550,18 @@ h3 {
 }
 
 main .homepage {
-  margin-bottom: 90px;
-}
-main .homepage .storylinebox {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 70px;
+}
+main .homepage .storylinebox {
   padding: 18px;
   background-color: rgba(114, 255, 227, 0.4745098039);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 60%;
-  margin: 0 auto;
 }
 main .homepage .storyline {
   font-size: 16px;
@@ -686,8 +621,8 @@ main .youtubes .othertrailers iframe {
   width: 300px;
   overflow: hidden;
   transition: transform 0.3s ease;
-  color: black; /*MAPS AGREGADO*/
-  background-color: white; /*MAPS AGREGADO*/
+  color: black;
+  background-color: white;
   border-radius: 3px;
   border: 1px solid black;
 }
@@ -719,7 +654,7 @@ main .youtubes .othertrailers iframe {
   margin-bottom: 60px;
 }
 .homebutton .homebuttondiv .viewmorebutton a {
-  color: white; /*MAPS AGREGADO*/
+  color: white;
   text-decoration: none;
 }
 .homebutton .homebuttondiv .viewmorebutton:hover {
@@ -827,7 +762,7 @@ main .cardsabout .card-textabout {
   bottom: 0;
   padding: 10px;
   border-radius: 5px;
-  color: white; /*MAPS AGREGADO*/
+  color: white;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -1037,7 +972,7 @@ main .cardsabout .card-textabout {
 .newscard {
   justify-self: center;
   background-color: rgb(243, 243, 243);
-  color: black; /*MAPS AGREGADO*/
+  color: black;
   width: 18rem;
   height: 375px;
   margin: 20px;
@@ -1065,7 +1000,7 @@ main .cardsabout .card-textabout {
 }
 .newscard .newscard-body a {
   text-decoration: none;
-  color: white; /*MAPS AGREGADO*/
+  color: white;
 }
 .newscard .newscard-body .btn-primary {
   margin-top: 20px;
@@ -1143,58 +1078,73 @@ main .cardsabout .card-textabout {
 }
 
 @media only screen and (max-width: 480px) {
-  /*Header & navbar */
   header img {
     height: 400px;
   }
-  header .navbar ul {
+  header .navbarhome ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 2px;
   }
-  header .navbar ul li {
+  header .navbarhome ul li {
     align-items: center;
-    margin: 1px;
+    margin: 0;
     padding: 0;
   }
-  header .navbar ul a {
+  header .navbarhome ul a {
     display: inline-block;
-    font-size: 10px;
-    margin: 1px;
+    font-size: 14px;
+    margin: 0;
   }
   h1 {
-    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .titlehome {
+    font-size: 38px;
+    margin-bottom: 20px;
   }
   h2 {
-    font-size: 25px;
-  }
-  h3 {
     font-size: 20px;
   }
-  main .storylinebox {
-    width: 100%;
+  h3 {
+    font-size: 17px;
+  }
+  main .homepage {
+    display: flex;
+    align-items: center;
+  }
+  main .homepage .storylinebox {
+    width: 85%;
+  }
+  main .homepage .storylinebox .storyline {
+    font-size: 14px;
   }
   main .youtubes {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  main .youtubes .othertrailers {
-    display: flex;
-    justify-content: center;
+  main .youtubes .firsttrailer {
+    width: 100%;
+    margin: 0;
   }
-  main .youtubes iframe {
-    display: inline-block;
-    margin-bottom: 20px;
+  main .youtubes .firsttrailer iframe {
+    margin: 10px;
     width: 70%;
+    height: 185px;
   }
-  main .youtubes .card-container {
+  main .youtubes .othertrailers iframe {
+    margin: 10px;
+    width: 70%;
+    height: 185px;
+  }
+  main .card-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  main .cardsabout, main .cardquery {
+  .cardsabout, .cardquery {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1203,10 +1153,10 @@ main .cardsabout .card-textabout {
     margin: 0px;
     padding: 0px 0px;
   }
-  main .cardsabout .cardtextabout, main .cardquery .cardtextabout {
+  .cardsabout .cardtextabout, .cardquery .cardtextabout {
     font-size: 15px;
   }
-  main .productos {
+  .productos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1214,17 +1164,17 @@ main .cardsabout .card-textabout {
     width: 100%;
     margin: 0;
   }
-  main .productos .games-container {
+  .productos .games-container {
     width: 400px;
   }
-  main .productos .grid-container {
+  .productos .grid-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
   }
-  main .newspage {
+  .newspage {
     grid-template-columns: repeat(1, 1fr);
     display: flex;
     flex-direction: column;
@@ -1232,55 +1182,56 @@ main .cardsabout .card-textabout {
     align-items: center;
     margin: 0px auto;
   }
-  main .newspage .newscard {
+  .newspage .newscard {
     margin: 10px 40px;
   }
-  main .contacttext {
+  .contacttext {
     width: 70%;
     margin: 0 auto;
   }
-  main .name, main .email, main .message, main .options {
+  .name, .email, .message, .options {
     margin: 10px 0;
   }
-  main .formbutton {
+  .formbutton {
     margin-top: 20%;
   }
-  footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 50px;
-    padding-top: 10px;
-  }
-  footer .pcopy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3px;
-    margin: 2px;
-  }
-  footer .triforce {
-    padding-top: 3px;
-    margin: 2px;
-    width: 18px;
-  }
-  footer .socials {
-    padding: 0;
-    margin: 0;
-  }
-  footer .socials img {
-    width: 10px;
-    margin: 5px 10px;
-  }
-  footer .socials a {
-    margin: 0;
-  }
-  footer .socials .facebook, footer .socials .twitter, footer .socials .instagram {
-    margin-right: 0;
-    padding: 0;
-    width: 10px;
-  }
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+footer .pcopy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3px;
+  margin: 2px;
+}
+footer .triforce {
+  padding-top: 3px;
+  margin: 2px;
+  width: 18px;
+}
+footer .socials {
+  padding: 0;
+  margin: 0;
+}
+footer .socials img {
+  width: 10px;
+  margin: 5px 10px;
+}
+footer .socials a {
+  margin: 0;
+}
+footer .socials .facebook, footer .socials .twitter, footer .socials .instagram {
+  margin-right: 0;
+  padding: 0;
+  width: 10px;
+}
+
 @media only screen and (max-width: 768px) {
   header img {
     width: 100%;

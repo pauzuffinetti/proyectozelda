@@ -1,11 +1,9 @@
 @media only screen and (max-width: 480px) {
-/*Header & navbar */
-
 header{
   & img {
     height: 400px;
   }
-  .navbar {
+  .navbarhome { 
     ul {
       display: flex;
       flex-wrap: wrap;
@@ -13,47 +11,71 @@ header{
       margin: 2px;
         li{
         align-items: center;
-        margin: 1px;
+        margin: 0;
         padding: 0;
       }
   a {
     display: inline-block;
-    font-size: 10px;
-    margin: 1px;
+    font-size: 14px;
+    margin: 0;
     }
     }
   }
 }
 
 h1 {
-  font-size: 30px;
+  margin-bottom: 20px;
+}
+.titlehome {
+  font-size: 38px;
+  margin-bottom: 20px;
 }
 h2 {
-  font-size: 25px;
+  font-size: 20px;
 }
 h3{
-  font-size: 20px;
+  font-size: 17px;
 }
 
 main {
+
+.homepage{
+  display: flex;
+  align-items: center;
   .storylinebox {
-    width: 100%;
+    width: 85%;
+
+    .storyline{
+      font-size: 14px;
+    }
+  }
   }
   .youtubes {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    .othertrailers{
-      display: flex;
-      justify-content: center;
+    .firsttrailer{
+      width: 100%;
+      margin: 0;
+      iframe{
+        margin: 10px;
+        width: 70%;
+        height: 185px;
+      }
     }
 
-  iframe{
-    display: inline-block;
-    margin-bottom: 20px;
-    width: 70%;
+    .othertrailers{
+      iframe{
+        margin: 10px;
+        width: 70%;
+        height: 185px;
+      }
+    }
+
+ 
   }
+
+
   .card-container {
     display: flex;
     flex-direction: column;
@@ -157,7 +179,6 @@ footer {
     padding: 0;
     width: 10px;
   }
-}
 }
 }
 
