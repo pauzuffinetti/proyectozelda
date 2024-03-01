@@ -1,21 +1,12 @@
-h1 {
+.titlehome {
     font-family: 'Salsa', cursive;
     font-size: 40px;
+    @extend %titles;
+    color: map-get($colores, third); // MAPS AGREGADO
 }
 
 h2, h3 {
     text-align: center;
-    color: map-get($colores, third); // MAPS AGREGADO
-
-    &,
-    .titlehome {
-        font-family: 'Salsa', cursive;
-        font-size: 50px;
-    }
-}
-
-.titlehome, .abouttitle, .newstitle, .contacttitle {
-    @extend %titles;
     color: map-get($colores, third); // MAPS AGREGADO
 }
 

@@ -39,7 +39,7 @@
   padding: 1px;
 }
 
-.titlehome, .abouttitle, .newstitle, .contacttitle {
+.titlehome {
   margin-top: 45px;
   font-size: 50px;
   text-align: center;
@@ -517,23 +517,14 @@ header nav ul li a {
   background-color: rgba(7, 221, 153, 0.636);
 }
 
-h1 {
+.titlehome {
   font-family: "Salsa", cursive;
   font-size: 40px;
+  color: white;
 }
 
 h2, h3 {
   text-align: center;
-  color: white;
-}
-h2,
-h2 .titlehome, h3,
-h3 .titlehome {
-  font-family: "Salsa", cursive;
-  font-size: 50px;
-}
-
-.titlehome, .abouttitle, .newstitle, .contacttitle {
   color: white;
 }
 
@@ -669,8 +660,8 @@ main .cardsabout {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 50px;
-  margin: 30px 0 50px 0;
+  margin-top: 10px;
+  gap: 10px;
 }
 main .cardsabout .card-courage {
   flex: 1;
@@ -800,7 +791,7 @@ main .cardsabout .card-textabout {
 .gettingstarted .getstartedcontainer .menulinks {
   position: sticky;
   top: 10px;
-  margin-top: 12px;
+  margin-top: 3px;
   text-align: center;
 }
 .gettingstarted .getstartedcontainer .menulinks a {
@@ -808,13 +799,13 @@ main .cardsabout .card-textabout {
   margin: 15px 5px;
   padding: 5px 5px;
   background-color: rgba(253, 253, 253, 0.8);
-  border-radius: 5px;
+  border-radius: 8px;
   text-decoration: none;
   color: rgb(12, 86, 56);
   transition: background-color 0.3s;
 }
 .gettingstarted .getstartedcontainer .menulinks a:hover {
-  background-color: rgb(10, 172, 107);
+  background-color: rgb(22, 209, 134);
 }
 .gettingstarted .getstartedcontainer #lookaround {
   color: white;
@@ -845,15 +836,14 @@ main .cardsabout .card-textabout {
   margin-right: 10px;
 }
 
-.merchandising {
+.merchandising .titlehome {
   text-align: center;
-  margin: 50px 0;
+  margin-bottom: 10px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-.merchandising p {
+.merchandising .titlehome p {
   margin-top: 15px;
   color: white;
   position: relative;
@@ -1013,26 +1003,19 @@ main .cardsabout .card-textabout {
   justify-content: center;
   align-items: center;
 }
-.contact fieldset {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: none;
+.contact .contacttext {
   text-align: center;
-}
-.contact fieldset .contacttext {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 70%;
+  width: 50%;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin: 20px 0;
+}
+.contact fieldset {
+  border: none;
 }
 .contact fieldset .formcontainer {
   background-color: rgba(6, 105, 65, 0.515);
-  width: 400px;
+  width: 100%;
   margin: 20px;
   padding: 5px;
   border-radius: 8px;
@@ -1139,22 +1122,31 @@ main .cardsabout .card-textabout {
     width: 70%;
     height: 185px;
   }
-  main .card-container {
+  main .cardsabout {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    gap: 20px;
   }
-  .cardsabout, .cardquery {
+  main .cardsabout .card-textabout {
+    font-size: 13px;
+  }
+  .gettingstarted {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin: 0px;
-    padding: 0px 0px;
   }
-  .cardsabout .cardtextabout, .cardquery .cardtextabout {
-    font-size: 15px;
+  .gettingstarted .getstartedcontainer {
+    width: 100%;
+  }
+  .gettingstarted .getstartedcontainer h3 {
+    font-size: 22px;
+    padding: 0;
+  }
+  .gettingstarted .getstartedcontainer .pgettingstarted {
+    font-size: 14px;
   }
   .productos {
     display: flex;
@@ -1185,14 +1177,27 @@ main .cardsabout .card-textabout {
   .newspage .newscard {
     margin: 10px 40px;
   }
-  .contacttext {
-    width: 70%;
-    margin: 0 auto;
+  .contact {
+    display: flex;
+    justify-content: center;
   }
-  .name, .email, .message, .options {
+  .contact .contacttext {
+    width: 90%;
+  }
+  .contact fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact fieldset .formcontainer {
+    width: 100%;
+    margin: 20px;
+  }
+  .contact fieldset .name, .contact fieldset .email, .contact fieldset .message, .contact fieldset .options {
     margin: 10px 0;
   }
-  .formbutton {
+  .contact .formbutton {
     margin-top: 20%;
   }
 }

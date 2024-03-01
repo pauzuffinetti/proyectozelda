@@ -4,28 +4,20 @@
 	  justify-content: center;
 	  align-items: center;
   
-	  fieldset {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		border: none;
+	  .contacttext {
 		text-align: center;
-
-		.contacttext {
-		display: flex;
-		justify-content: center;
-		text-align: center;
-		width: 70%;
+		width: 50%;
 		font-family: 'Raleway', sans-serif;
 		font-size: 18px;
-		margin-bottom: 20px;
-
+		margin: 20px 0;
 	  }
+
+	  fieldset {
+		border: none;	
 	
 	  .formcontainer {
 		background-color: rgba(6, 105, 65, 0.515);
-		width: 400px;
+		width: 100%;
 		margin: 20px;
 		padding: 5px;
 		border-radius: 8px;

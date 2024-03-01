@@ -1,8 +1,8 @@
 .merchandising {
+	.titlehome{
 		text-align: center;
-		margin: 50px 0;
+		margin-bottom: 10px;
 		display: flex;
-		flex-direction: column;
 		justify-content: center; 
 		text-align: center;
 			p{
@@ -10,6 +10,7 @@
 			color: map-get($colores, third); 
 			position: relative;
 		}
+	}
 	}
 .productos {
 		display: flex;

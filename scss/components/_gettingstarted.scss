@@ -32,19 +32,19 @@
         .menulinks {
             position: sticky;
             top: 10px;
-            margin-top: 12px;
+            margin-top: 3px;
             text-align: center;
             a {
                 display: inline-block;
                 margin: 15px 5px;
                 padding: 5px 5px;
                 background-color: rgba(253, 253, 253, 0.8);
-                border-radius: 5px;
+                border-radius: 8px;
                 text-decoration: none;
                 color: rgb(12, 86, 56);
                 transition: background-color 0.3s;
                 &:hover {
-                    background-color: rgb(10, 172, 107);
+                    background-color: rgb(22, 209, 134);
                 }
             }
         }

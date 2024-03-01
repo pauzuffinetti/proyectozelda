@@ -72,30 +72,43 @@ main {
       }
     }
 
- 
+
   }
 
-
-  .card-container {
+  .cardsabout {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  }
-
-  .cardsabout, .cardquery{
-    display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;    
-      width: 100%;
-      margin: 0px;
-      padding: 0px 0px; 
-
-      .cardtextabout{
-        font-size: 15px;
+    width: 100%;
+    gap: 20px;
+      
+      .card-textabout{
+        font-size: 13px;
       }
     }
+  }
+  
+.gettingstarted{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+.getstartedcontainer{
+  width: 100%;
+
+  h3{
+    font-size: 22px;
+    padding: 0;
+  }
+  .pgettingstarted{
+  font-size: 14px;
+  }
+}
+}
+
+
+
 
 
   .productos {
@@ -132,17 +145,34 @@ main {
   }
 
 
+.contact{
+  display: flex;
+  justify-content: center;
   .contacttext{
-    width: 70%;
-    margin: 0 auto;
+    width: 90%;
   }
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+.formcontainer{
+  width: 100%;
+  margin: 20px;
+}
+
   .name, .email, .message, .options{
     margin: 10px 0;
   }
+}
   .formbutton {
   margin-top: 20%;
   }
 }
+}
+
 
 footer {
   display: flex;
@@ -181,6 +211,10 @@ footer {
   }
 }
 }
+
+
+
+
 
 
 
@@ -269,7 +303,6 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
   
-  
 
   .newspage{
     grid-template-columns: repeat(1, 1fr);
@@ -327,6 +360,4 @@ footer {
     }
   }
 }
-
-
 }
