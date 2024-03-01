@@ -50,10 +50,6 @@
 }
 
 /*Colores*/
-* {
-  border: 1px solid black;
-}
-
 @keyframes move {
   100% {
     transform: translate3d(0, 0, 1px) rotate(360deg);
@@ -1177,6 +1173,12 @@ main .cardsabout .card-textabout {
     font-size: 20px;
   }
   /*home*/
+  main {
+    /*About*/
+    /*merch*/
+    /*News*/
+    /*Contact*/
+  }
   main .storylinebox {
     width: 100%;
   }
