@@ -1,349 +1,367 @@
 @media only screen and (max-width: 480px) {
-header{
-  & img {
-    height: 400px;
-  }
-  .navbarhome { 
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 2px;
-        li{
-        align-items: center;
-        margin: 0;
-        padding: 0;
-      }
-  a {
-    display: inline-block;
-    font-size: 14px;
-    margin: 0;
-    }
-    }
-  }
-}
-
-h1 {
-  margin-bottom: 20px;
-}
-.titlehome {
-  font-size: 38px;
-  margin-bottom: 20px;
-}
-h2 {
-  font-size: 20px;
-}
-h3{
-  font-size: 17px;
-}
-
-main {
-
-.homepage{
-  display: flex;
-  align-items: center;
-  .storylinebox {
-    width: 85%;
-
-    .storyline{
-      font-size: 14px;
-    }
-  }
-  }
-  .youtubes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    .firsttrailer{
-      width: 100%;
-      margin: 0;
-      iframe{
-        margin: 10px;
-        width: 70%;
-        height: 185px;
-      }
-    }
-
-    .othertrailers{
-      iframe{
-        margin: 10px;
-        width: 70%;
-        height: 185px;
-      }
-    }
-
-
-  }
-
-  .cardsabout {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-      
-      .card-textabout{
-        font-size: 13px;
-      }
-    }
-  }
-.gettingstarted{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-.getstartedcontainer{
-  width: 100%;
-
-  h3{
-    font-size: 22px;
-    padding: 0;
-  }
-  .pgettingstarted{
-  font-size: 14px;
-  }
-}
-}
-  .productos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-
-  .games-container {
-    width: 400px;
-  }
-  .grid-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
-  }
-
-  .newspage{
-    grid-template-columns: repeat(1, 1fr);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto;
-
-    .newscard {
-      margin: 10px;
-    }
-  }
-
-
-.contact{
-  display: flex;
-  justify-content: center;
-  .contacttext{
-    width: 90%;
-  }
-
-fieldset{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .formcontainer{
-      width: 100%;
-    }
-  }
-
-  .name, .email, .message, .options{
-    margin: 10px 0;
-  }
-}
-  .formbutton {
-  margin-top: 20%;
-  }
-}
-}
-
-
-footer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 50px;
-  padding-top: 10px;
-
-  .pcopy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3px;
-    margin: 2px;
-  }
-
-  .triforce{
-    padding-top: 3px;
-    margin: 2px;
-    width: 18px;
-  }
-  .socials{
-    padding: 0;
-    margin: 0;
-    img {
-      width: 10px;
-      margin: 5px 10px;
-    }
-    a{
-      margin: 0;
-    }
-  .facebook, .twitter, .instagram{
-    margin-right: 0;
-    padding: 0;
-    width: 10px;
-  }
-}
-}
-
-
-@media only screen and (max-width: 768px) {
   header{
     & img {
-      width: 100%;
-      height: 500px;
+      height: 400px;
     }
-    .navbar
-    &.navbarnews 
-    &.nabvarhome
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-      li{
-    align-items: center;
-    padding: 0px;
-    }
-    a{
-        display: block;
-        font-size: 12px;
-        margin: 3px 0;
-        padding: 0px;
+    .navbarhome { 
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2px;
+          li{
+          align-items: center;
+          margin: 0;
+          padding: 0;
         }
+    a {
+      display: inline-block;
+      font-size: 14px;
+      margin: 0;
       }
+      }
+    }
   }
   
   h1 {
-    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .titlehome {
+    font-size: 38px;
+    margin-bottom: 20px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   h3{
-    font-size: 25px;
+    font-size: 17px;
   }
   
- 
-  .storylinebox {
-    width: 90%;
-  }
-  iframe{
-    display: inline-block;
-    margin-bottom: 20px;
-    width: 70%;
-  }
-  .card-container {
+  main {
+  
+  .homepage{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+    align-items: center;
+    .storylinebox {
+      width: 85%;
   
-
-  .cardsabout, .cardquery{
-    display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;    
-      width: 100%;
-      margin: 0px;
-      padding: -60px; 
-  
-      .cardtextabout{
-        font-size: 15px;
+      .storyline{
+        font-size: 14px;
       }
     }
-
-
-  .merchandising {
-    margin: 30px;
-  }
-  .productos {
-    margin: 0;
-    width: 100%;
-  }
+    }
+    .youtubes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .firsttrailer{
+        width: 100%;
+        margin: 0;
+        iframe{
+          margin: 10px;
+          width: 70%;
+          height: 185px;
+        }
+      }
   
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+      .othertrailers{
+        iframe{
+          margin: 10px;
+          width: 70%;
+          height: 185px;
+        }
+      }
   
-
-  .newspage{
-    grid-template-columns: repeat(1, 1fr);
+  
+    }
+  
+    .cardsabout {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      gap: 20px;
+        
+        .card-textabout{
+          font-size: 13px;
+        }
+      }
+    }
+    
+  .gettingstarted{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px auto;
+  
+  .getstartedcontainer{
+    width: 100%;
+  
+    h3{
+      font-size: 22px;
+      padding: 0;
+    }
+    .pgettingstarted{
+    font-size: 14px;
+    }
   }
-    
-
-  .contacttext{
-    width: 90%;
-    margin: 0 auto;
-  }
-  .name, .email, .message, .options{
-    margin: 10px 0;
-  }
-  .formbutton {
-  margin-top: 30px;
   }
   
   
-
+  
+  
+  
+    .productos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+  
+    .games-container {
+      width: 400px;
+    }
+    .grid-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+    }
+  
+    .newspage{
+      grid-template-columns: repeat(1, 1fr);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0px auto;
+  
+      .newscard {
+        margin: 10px;
+      }
+    }
+  
+  
+  .contact{
+    display: flex;
+    justify-content: center;
+    .contacttext{
+      width: 90%;
+    }
+  
+  fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .formcontainer{
+        width: 100%;
+      }
+    }
+  
+    .name, .email, .message, .options{
+      margin: 10px 0;
+    }
+  }
+    .formbutton {
+    margin-top: 20%;
+    }
+  }
+  }
+  
+  
   footer {
     display: flex;
-    flex-direction: row;
-    width: 90%;
+    flex-direction: column;
+    width: 100%;
     margin-top: 50px;
-    padding-top: 0px;
+    padding-top: 10px;
   
     .pcopy {
-      text-align: center;
-      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 3px;
       margin: 2px;
     }
   
     .triforce{
-      padding: 0;
+      padding-top: 3px;
       margin: 2px;
+      width: 18px;
     }
     .socials{
       padding: 0;
-      margin: 2px;
-  
+      margin: 0;
       img {
-        width: 25px;
-        margin-top: 5px;
+        width: 10px;
+        margin: 5px 10px;
+      }
+      a{
+        margin: 0;
       }
     .facebook, .twitter, .instagram{
       margin-right: 0;
-      width: 18px;
-      padding-top: 3px;
+      padding: 0;
+      width: 10px;
     }
   }
-}
-}
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    header{
+      & img {
+        width: 100%;
+        height: 500px;
+      }
+      .navbar
+      &.navbarnews 
+      &.nabvarhome
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+        li{
+      align-items: center;
+      padding: 0px;
+      }
+      a{
+          display: block;
+          font-size: 12px;
+          margin: 3px 0;
+          padding: 0px;
+          }
+        }
+    }
+    
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h3{
+      font-size: 25px;
+    }
+    
+   
+    .storylinebox {
+      width: 90%;
+    }
+    iframe{
+      display: inline-block;
+      margin-bottom: 20px;
+      width: 70%;
+    }
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+  
+    .cardsabout, .cardquery{
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        width: 100%;
+        margin: 0px;
+        padding: -60px; 
+    
+        .cardtextabout{
+          font-size: 15px;
+        }
+      }
+  
+  
+    .merchandising {
+      margin: 30px;
+    }
+    .productos {
+      margin: 0;
+      width: 100%;
+    }
+    
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+  
+    .newspage{
+      grid-template-columns: repeat(1, 1fr);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0px auto;
+    }
+    
+    
+  
+    .contacttext{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .name, .email, .message, .options{
+      margin: 10px 0;
+    }
+    .formbutton {
+    margin-top: 30px;
+    }
+    
+    
+  
+    footer {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      margin-top: 50px;
+      padding-top: 0px;
+    
+      .pcopy {
+        text-align: center;
+        padding: 0;
+        margin: 2px;
+      }
+    
+      .triforce{
+        padding: 0;
+        margin: 2px;
+      }
+      .socials{
+        padding: 0;
+        margin: 2px;
+    
+        img {
+          width: 25px;
+          margin-top: 5px;
+        }
+      .facebook, .twitter, .instagram{
+        margin-right: 0;
+        width: 18px;
+        padding-top: 3px;
+      }
+    }
+  }
+  }

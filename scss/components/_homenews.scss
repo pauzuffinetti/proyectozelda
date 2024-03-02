@@ -1,71 +1,70 @@
 .newspreview {
-		h2 {
-			margin-top: 80px;
-			color: map-get($colores, third); // MAPS AGREGADO
-		
-		}
-		.card-container {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			padding: 10px;
-			width: 70%;
-			margin: 0 auto;
-			gap: 20px;
-		}
-		.homecards {
-			position: relative;
-			width: 300px;
-			overflow: hidden;
-			transition: transform 0.3s ease;
-			color: map-get($colores, fourth); 
-			background-color: map-get($colores, third); 
-			border-radius: 3px;
-			border: 1px solid black;
-			img {
-				width: 100%;
-				height: auto;
-				display: block;
-				transition: transform 0.3s ease, border 0.3s ease;
-				&:hover {
-					transform: scale(1.05);
-				}
-			}
+	h2 {
+		margin-top: 80px;
+		color: map-get($colores, third); // MAPS AGREGADO
+	
+	}
+	.card-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		width: 70%;
+		margin: 0 auto;
+		gap: 20px;
+	}
+	.homecards {
+		position: relative;
+		width: 300px;
+		overflow: hidden;
+		transition: transform 0.3s ease;
+		color: map-get($colores, fourth); 
+		background-color: map-get($colores, third); 
+		border-radius: 3px;
+		border: 1px solid black;
+		img {
+			width: 100%;
+			height: auto;
+			display: block;
+			transition: transform 0.3s ease, border 0.3s ease;
 			&:hover {
-				.homecard-text {
-					opacity: 1;
-				}
 				transform: scale(1.05);
-				border: 2px solid gold;
-				box-shadow: 0 10px 14px rgb(255, 255, 255);
 			}
 		}
-		.homecard-text {
-			padding: 5px;
-			font-size: 14px;
+		&:hover {
+			.homecard-text {
+				opacity: 1;
+			}
+			transform: scale(1.05);
+			border: 2px solid gold;
+			box-shadow: 0 10px 14px rgb(255, 255, 255);
 		}
 	}
-	.homebutton {
-		.homebuttondiv {
-			display: flex;
-			justify-content: center;
-			margin-bottom: 60px;
-		
-			.viewmorebutton {
-				@extend %button;
-				a {
-					color: map-get($colores, third);
-					text-decoration: none;
-				}
-
-				&:hover {
-					color: rgb(255, 255, 255);
-					background-color: rgb(17, 97, 73);
-					box-shadow: rgba(6, 105, 65, 0.46) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
-					box-shadow: rgba(6, 105, 65, 0.46) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
-				}
-				}
-						
-		}
-		}
+	.homecard-text {
+		padding: 5px;
+		font-size: 14px;
+	}
+}
+.homebutton {
+	.homebuttondiv {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 60px;
 	
+		.viewmorebutton {
+			@extend %button;
+			a {
+				color: map-get($colores, third);
+				text-decoration: none;
+			}
+
+			&:hover {
+				color: rgb(255, 255, 255);
+				background-color: rgb(17, 97, 73);
+				box-shadow: rgba(6, 105, 65, 0.46) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
+				box-shadow: rgba(6, 105, 65, 0.46) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
+			}
+			}
+					
+	}
+	}

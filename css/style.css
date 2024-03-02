@@ -381,58 +381,37 @@
 }
 
 .homefooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: #256e4b;
   color: white;
   text-align: center;
-  padding: 2px 0;
+  padding: 0;
   bottom: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
-
-.triforce {
-  width: 20px;
+.homefooter .triforce {
+  width: 18px;
   height: auto;
   margin-left: 20px;
 }
-
-.facebook {
-  width: 16px;
-  margin-top: 3px;
-  display: inline-block;
-  margin-right: 5px;
-}
-
-.socials {
-  margin-right: 20px;
-}
-.socials a {
-  margin: 5px;
-}
-
-.twitter {
-  width: 16px;
-  margin-top: 3px;
-  display: inline-block;
-  margin-right: 5px;
-}
-
-.instagram {
-  width: 16px;
-  margin-top: 3px;
-  display: inline-block;
-  margin-right: 5px;
-}
-
-.pcopy {
+.homefooter .pcopy {
   display: flex;
   text-align: center;
   font-size: 12px;
   text-align: center;
   margin: 8px;
   padding: 0;
+}
+.homefooter .socials .facebook,
+.homefooter .socials .twitter,
+.homefooter .socials .instagram {
+  width: 16px;
+  margin-top: 3px;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 * {
@@ -660,8 +639,8 @@ main .cardsabout {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  gap: 10px;
+  margin-top: 20px;
+  gap: 40px;
 }
 main .cardsabout .card-courage {
   flex: 1;
@@ -1018,7 +997,7 @@ main .cardsabout .card-textabout {
 .contact fieldset .formcontainer {
   background-color: rgba(6, 105, 65, 0.515);
   width: 100%;
-  margin: 20px;
+  margin-bottom: 10px;
   padding: 5px;
   border-radius: 8px;
   transition: transform 0.3s ease;
