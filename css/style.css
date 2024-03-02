@@ -64,7 +64,7 @@
   overflow: hidden;
   z-index: -1;
   position: fixed;
-  height: 100%;
+  width: 100%;
   top: 0;
   left: 0;
   background: #042015;
@@ -944,7 +944,7 @@ main .cardsabout .card-textabout {
   background-color: rgb(243, 243, 243);
   color: black;
   width: 18rem;
-  height: 375px;
+  height: 365px;
   margin: 20px;
   border: 2px solid gold;
   transition: transform 0.3s ease;
