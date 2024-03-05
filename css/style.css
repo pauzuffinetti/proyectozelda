@@ -1041,22 +1041,6 @@ main .cardsabout .card-textabout {
 }
 
 @media only screen and (max-width: 480px) {
-  .background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #042015;
-    overflow: hidden;
-    z-index: -1;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: #042015;
-    overflow: hidden;
-  }
   header img {
     height: 400px;
   }

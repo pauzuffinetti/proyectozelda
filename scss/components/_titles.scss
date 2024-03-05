@@ -2,18 +2,18 @@
     font-family: 'Salsa', cursive;
     font-size: 40px;
     @extend %titles;
-    color: map-get($colores, third); // MAPS AGREGADO
+    color: map-get($colores, third);
 }
 
 h2, h3 {
     text-align: center;
-    color: map-get($colores, third); // MAPS AGREGADO
+    color: map-get($colores, third);
 }
 
 h2 {
     font-family: 'Salsa', cursive;
     font-size: 35px;
-    color: map-get($colores, third); // MAPS 
+    color: map-get($colores, third);
 }
 
 h3 {
